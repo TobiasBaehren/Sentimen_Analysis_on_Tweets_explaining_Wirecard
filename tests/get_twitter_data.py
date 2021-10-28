@@ -19,5 +19,4 @@ def create_headers(bearer_token):
     headers = {"Authorization": "Bearer {}".format(bearer_token)}
     return headers
 
-def create_url(keyword, start_date, end_date, max_results = 10):
-    
+#def create_url(keyword, start_date, end_date, max_results = 10):
