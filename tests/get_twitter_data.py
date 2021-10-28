@@ -11,5 +11,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-token = os.environ.get("BEARER_TOKEN")
+def auth():
+    token = os.environ.get("BEARER_TOKEN")
+    return token
 
+def create_headers(bearer_token):
+    headers = {"Authorization": "Bearer {}".format(bearer_token)}
+    return headers
+
+def create_url(keyword, start_date, end_date, max_results = 10):
+    
