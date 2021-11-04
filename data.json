@@ -2,45 +2,393 @@
     "data": [
         {
             "id": "1344430712313806849",
-            "text": "@_FriedrichMerz Guttenberg und Merz treffen den kriminellen Braun von Wirecard. Dazu kann man nur anmerken, dass sich Gleich und Gleich halt gerne zusammen finden."
+            "lang": "de",
+            "created_at": "2020-12-30T23:50:34.000Z",
+            "source": "Twitter Web App",
+            "author_id": "1043410905835495426",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "text": "@_FriedrichMerz Guttenberg und Merz treffen den kriminellen Braun von Wirecard. Dazu kann man nur anmerken, dass sich Gleich und Gleich halt gerne zusammen finden.",
+            "in_reply_to_user_id": "1059395748289232896",
+            "reply_settings": "everyone",
+            "conversation_id": "1344430712313806849"
         },
         {
             "id": "1344429729324085248",
-            "text": "@RolfMeissler @sixtus @RegSprecher @eucopresident @vonderleyen @EmmanuelMacron @tagesschau @tagesthemen @ZDFheute @heutejournal @Westpol @EUinDE @CDU_CSU_EP @EskenSaskia @ClausKleber @TinaHassel @akk @HBraun @polenz_r @janboehm Interessant, \n@otto_de z\u00e4hlt nicht als wertvolle \"Plattform\", @wirecard aber schon \ud83e\udd14\nhttps://t.co/c3VclFioFJ"
+            "lang": "de",
+            "created_at": "2020-12-30T23:46:40.000Z",
+            "source": "Twitter Web App",
+            "author_id": "37932225",
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1344325306941906945"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 1,
+                "quote_count": 0
+            },
+            "text": "@RolfMeissler @sixtus @RegSprecher @eucopresident @vonderleyen @EmmanuelMacron @tagesschau @tagesthemen @ZDFheute @heutejournal @Westpol @EUinDE @CDU_CSU_EP @EskenSaskia @ClausKleber @TinaHassel @akk @HBraun @polenz_r @janboehm Interessant, \n@otto_de z\u00e4hlt nicht als wertvolle \"Plattform\", @wirecard aber schon \ud83e\udd14\nhttps://t.co/c3VclFioFJ",
+            "in_reply_to_user_id": "803537152634159104",
+            "reply_settings": "everyone",
+            "conversation_id": "1344288643771490304"
         },
         {
             "id": "1344427368627236866",
-            "text": "RT @FabioDeMasi: #Merz sollte klarstellen, ob er Braun kritische Fragen gestellt hat. \u00bbDer U-Ausschuss des Bundestags w\u00e4re daf\u00fcr ein ideale\u2026"
+            "lang": "de",
+            "created_at": "2020-12-30T23:37:17.000Z",
+            "source": "Twitter for Android",
+            "author_id": "329975848",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1344266535213301760"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 50,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "text": "RT @FabioDeMasi: #Merz sollte klarstellen, ob er Braun kritische Fragen gestellt hat. \u00bbDer U-Ausschuss des Bundestags w\u00e4re daf\u00fcr ein ideale\u2026",
+            "reply_settings": "everyone",
+            "conversation_id": "1344427368627236866"
         },
         {
             "id": "1344426787938381824",
-            "text": "RT @FabioDeMasi: #Merz sollte klarstellen, ob er Braun kritische Fragen gestellt hat. \u00bbDer U-Ausschuss des Bundestags w\u00e4re daf\u00fcr ein ideale\u2026"
+            "lang": "de",
+            "created_at": "2020-12-30T23:34:59.000Z",
+            "source": "Twitter for Android",
+            "author_id": "1145879588",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1344266535213301760"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 50,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "text": "RT @FabioDeMasi: #Merz sollte klarstellen, ob er Braun kritische Fragen gestellt hat. \u00bbDer U-Ausschuss des Bundestags w\u00e4re daf\u00fcr ein ideale\u2026",
+            "reply_settings": "everyone",
+            "conversation_id": "1344426787938381824"
         },
         {
             "id": "1344425906388029441",
-            "text": "RT @ntvde: + Merz hatte wiederholt Kontakt zu Wirecard-Chef https://t.co/ennFKFCcku"
+            "lang": "de",
+            "created_at": "2020-12-30T23:31:28.000Z",
+            "source": "Twitter for Android",
+            "author_id": "958441829359325184",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1344294430530912259"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 13,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "text": "RT @ntvde: + Merz hatte wiederholt Kontakt zu Wirecard-Chef https://t.co/ennFKFCcku",
+            "reply_settings": "everyone",
+            "conversation_id": "1344425906388029441"
         },
         {
             "id": "1344425425301336068",
-            "text": "RT @TurgAir: Super Idee!\nDie Verm\u00f6gen aller biodeutschen Betr\u00fcger, die sich mit den Cum-Ex- und Wirecard-Gesch\u00e4ften bereichert und Steuern\u2026"
+            "lang": "de",
+            "created_at": "2020-12-30T23:29:34.000Z",
+            "source": "Twitter Web App",
+            "author_id": "2696309778",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1344395232327118849"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "text": "RT @TurgAir: Super Idee!\nDie Verm\u00f6gen aller biodeutschen Betr\u00fcger, die sich mit den Cum-Ex- und Wirecard-Gesch\u00e4ften bereichert und Steuern\u2026",
+            "reply_settings": "everyone",
+            "conversation_id": "1344425425301336068"
         },
         {
             "id": "1344425272095944704",
-            "text": "RT @robert_fietzke: Treffen sich der Ex-#Wirecard-Chef und der Ex-Aufsichtsrat von Blackrock (#CumEx!) und sprechen \u00fcber \"allgemeine Kapita\u2026"
+            "lang": "de",
+            "created_at": "2020-12-30T23:28:57.000Z",
+            "source": "Twitter for iPhone",
+            "author_id": "793400734104641537",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1344320413371916300"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 23,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "text": "RT @robert_fietzke: Treffen sich der Ex-#Wirecard-Chef und der Ex-Aufsichtsrat von Blackrock (#CumEx!) und sprechen \u00fcber \"allgemeine Kapita\u2026",
+            "reply_settings": "everyone",
+            "conversation_id": "1344425272095944704"
         },
         {
             "id": "1344425254446391302",
-            "text": "RT @derspiegel: Der CDU-Politiker Friedrich Merz hatte nach SPIEGEL-Informationen mehrfach Kontakt zu dem inzwischen inhaftierten Ex-Wireca\u2026"
+            "lang": "de",
+            "created_at": "2020-12-30T23:28:53.000Z",
+            "source": "Twitter for Android",
+            "author_id": "47329906",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1344264281269932035"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 199,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "text": "RT @derspiegel: Der CDU-Politiker Friedrich Merz hatte nach SPIEGEL-Informationen mehrfach Kontakt zu dem inzwischen inhaftierten Ex-Wireca\u2026",
+            "reply_settings": "everyone",
+            "conversation_id": "1344425254446391302"
         },
         {
             "id": "1344422608868175873",
-            "text": "RT @ErnstvAll: \u201cWirecard hat uns alle get\u00e4uscht.\u201d\n#Guttenberg sieht sich im #Wirecard-Skandal als Opfer https://t.co/6jEjw5Sn0C https://t.c\u2026"
+            "lang": "de",
+            "created_at": "2020-12-30T23:18:22.000Z",
+            "source": "Twitter Web App",
+            "author_id": "1282578638215548928",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1339543177980747776"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 15,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "text": "RT @ErnstvAll: \u201cWirecard hat uns alle get\u00e4uscht.\u201d\n#Guttenberg sieht sich im #Wirecard-Skandal als Opfer https://t.co/6jEjw5Sn0C https://t.c\u2026",
+            "reply_settings": "everyone",
+            "conversation_id": "1344422608868175873"
         },
         {
             "id": "1344422217015242757",
-            "text": "RT @derspiegel: Der CDU-Politiker Friedrich Merz hatte nach SPIEGEL-Informationen mehrfach Kontakt zu dem inzwischen inhaftierten Ex-Wireca\u2026"
+            "lang": "de",
+            "created_at": "2020-12-30T23:16:49.000Z",
+            "source": "Twitter for Android",
+            "author_id": "2606126973",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1344264281269932035"
+                }
+            ],
+            "public_metrics": {
+                "retweet_count": 199,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "text": "RT @derspiegel: Der CDU-Politiker Friedrich Merz hatte nach SPIEGEL-Informationen mehrfach Kontakt zu dem inzwischen inhaftierten Ex-Wireca\u2026",
+            "reply_settings": "everyone",
+            "conversation_id": "1344422217015242757"
         }
     ],
+    "includes": {
+        "users": [
+            {
+                "verified": false,
+                "id": "1043410905835495426",
+                "name": "Hans G\u00f6\u00dfler",
+                "description": "",
+                "public_metrics": {
+                    "followers_count": 2,
+                    "following_count": 13,
+                    "tweet_count": 1808,
+                    "listed_count": 0
+                },
+                "username": "HansGler1",
+                "created_at": "2018-09-22T08:05:20.000Z"
+            },
+            {
+                "verified": true,
+                "id": "1059395748289232896",
+                "name": "Friedrich Merz",
+                "description": "Mitglied des Deutschen Bundestages. Hier twittern Friedrich Merz (FM) und sein Team (tm)",
+                "public_metrics": {
+                    "followers_count": 164955,
+                    "following_count": 494,
+                    "tweet_count": 1142,
+                    "listed_count": 767
+                },
+                "username": "_FriedrichMerz",
+                "created_at": "2018-11-05T10:43:23.000Z"
+            },
+            {
+                "verified": false,
+                "id": "37932225",
+                "name": "Horner Kreisel",
+                "description": "M\u00f6chte mich mit meinen Tweets f\u00fcr h\u00f6here Aufgaben empfehlen z.B. Fu\u00dfball-Bundestrainer, LKA-Mitarbeiter in Sachsen, SPD-Parteivorsitzender, Bundespr\u00e4sident o.\u00e4.",
+                "public_metrics": {
+                    "followers_count": 279,
+                    "following_count": 390,
+                    "tweet_count": 5056,
+                    "listed_count": 10
+                },
+                "username": "Horner_Kreisel",
+                "created_at": "2009-05-05T14:19:47.000Z"
+            },
+            {
+                "verified": false,
+                "id": "803537152634159104",
+                "name": "Rolf Meissler",
+                "description": "Informatiker. \u00d6konom. Schiedsmann. \u201eSachkundiger B\u00fcrger\u201c\nF\u00fcr Demokratie.\nBitte, geht in die Parteien + Ortsvereine.\nWenn ihr politische Ver\u00e4nderungen wollt.",
+                "public_metrics": {
+                    "followers_count": 1068,
+                    "following_count": 3438,
+                    "tweet_count": 46991,
+                    "listed_count": 11
+                },
+                "username": "RolfMeissler",
+                "created_at": "2016-11-29T09:52:41.000Z"
+            },
+            {
+                "verified": false,
+                "id": "329975848",
+                "name": "\ud83c\udded\ud83c\uddfa___",
+                "description": "\ud83d\ude44",
+                "public_metrics": {
+                    "followers_count": 717,
+                    "following_count": 158,
+                    "tweet_count": 106517,
+                    "listed_count": 1
+                },
+                "username": "xx_dn1b_7",
+                "created_at": "2011-07-05T22:26:09.000Z"
+            },
+            {
+                "verified": false,
+                "id": "1145879588",
+                "name": "Stephan Roth",
+                "description": "Langweiliger Eintracht-Fan der gerne liest, streamt, die \u00d6ffentlich-Rechtlichen ganz klar den Privaten vorzieht, die BILD hasst, Paulaner Wei\u00dfbier mag ... \ud83e\udd13",
+                "public_metrics": {
+                    "followers_count": 20,
+                    "following_count": 99,
+                    "tweet_count": 4154,
+                    "listed_count": 0
+                },
+                "username": "Schlaggel33",
+                "created_at": "2013-02-03T18:30:15.000Z"
+            },
+            {
+                "verified": false,
+                "id": "958441829359325184",
+                "name": "WidowEcho (Silvia)",
+                "description": "Mit Charme einer Kreiss\u00e4ge, aber eine Person mit stark aktiven medialen pr\u00e4frontalen Cortex und zeitgleich temporoparietalen \u00dcbergang... macht was draus\ud83e\udd23",
+                "public_metrics": {
+                    "followers_count": 148,
+                    "following_count": 163,
+                    "tweet_count": 20758,
+                    "listed_count": 0
+                },
+                "username": "SeraNever",
+                "created_at": "2018-01-30T20:48:33.000Z"
+            },
+            {
+                "verified": false,
+                "id": "2696309778",
+                "name": "Der Schakal (Anatole)",
+                "description": "Orthodoxer Muslim (T\u00fcrkisch/Kurdisch),\nInteressen:\nIslamische Kulturgeschichte,\nErster/Zweiter Weltkrieg,\nRT \u2260 endorsement",
+                "public_metrics": {
+                    "followers_count": 659,
+                    "following_count": 1708,
+                    "tweet_count": 122987,
+                    "listed_count": 71
+                },
+                "username": "Der_Schakal",
+                "created_at": "2014-07-31T18:25:54.000Z"
+            },
+            {
+                "verified": false,
+                "id": "793400734104641537",
+                "name": "\ud83d\udd34\ud83d\udd34\ud83d\udd34Summer Time\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+                "description": "\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udd34Optimistisch. Begeisterungsf\u00e4hig. Hellwach. #YesToNoCovid #LebenRetten \ud83d\udd34\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5",
+                "public_metrics": {
+                    "followers_count": 705,
+                    "following_count": 1953,
+                    "tweet_count": 122191,
+                    "listed_count": 5
+                },
+                "username": "1Summertime2",
+                "created_at": "2016-11-01T10:34:10.000Z"
+            },
+            {
+                "verified": false,
+                "id": "47329906",
+                "name": "\ud835\udced\ud835\udcf8\ud835\udcfb\ud835\udcf8.",
+                "description": "\u26bd #betze\nRassismus/Queerphobie/Xenophobie sind keine Meinungen, sondern ein Verbrechen. she/her\n#refugeeswelcome #loveislove",
+                "public_metrics": {
+                    "followers_count": 1108,
+                    "following_count": 763,
+                    "tweet_count": 49365,
+                    "listed_count": 35
+                },
+                "username": "tohu_wabohu_",
+                "created_at": "2009-06-15T13:09:44.000Z"
+            },
+            {
+                "verified": false,
+                "id": "1282578638215548928",
+                "name": "Georgia Nolan",
+                "description": "Don\u2019t know what\ud83d\udd25 to do? You can start by hitting that follow button. My WhatsApp +1(901)591-0449",
+                "public_metrics": {
+                    "followers_count": 60,
+                    "following_count": 1859,
+                    "tweet_count": 2019,
+                    "listed_count": 0
+                },
+                "username": "Georgia96700000",
+                "created_at": "2020-07-13T07:32:38.000Z"
+            },
+            {
+                "verified": false,
+                "id": "2606126973",
+                "name": "JCzech",
+                "description": "politics & school & zerocovid",
+                "public_metrics": {
+                    "followers_count": 161,
+                    "following_count": 1003,
+                    "tweet_count": 7082,
+                    "listed_count": 2
+                },
+                "username": "jchhsbss",
+                "created_at": "2014-06-13T11:53:35.000Z"
+            }
+        ]
+    },
     "meta": {
         "newest_id": "1344430712313806849",
         "oldest_id": "1344422217015242757",
