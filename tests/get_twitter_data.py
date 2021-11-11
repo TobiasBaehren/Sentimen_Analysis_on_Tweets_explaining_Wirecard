@@ -10,12 +10,12 @@ import time
 from dotenv import load_dotenv
 import logging
 
-from tests.test import connection_test
+#from tests.test import connection_test
 
 load_dotenv()
 
 #Create file for Logs
-logging.basicConfig(filename="get_titter_data.log", filemode='w', format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+logging.basicConfig(filename="get_twitter_data.log", filemode='w', format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
@@ -72,19 +72,19 @@ def connect_to_endpoint(url, headers, params, next_token = None):
     #    raise Exception(response.status_code, response.text)
     return response.json()
 
-#Inputs for the Request
-bearer_token = auth()
-headers = create_headers(bearer_token)
-keyword = "wirecard"
-#start_time = "2016-02-01T00:00:00.000Z"
-#end_time = "2020-07-31T00:00:00.000Z"
-start_list = []
-end_list = []
+
 
 #Get Start and End list
-def get_star_end_list(year = 2016, month = 2):
-    for j in range(5):
-        for i in range(12):
+def get_star_end_list(year = 2016, month = 2, test = False):
+    if test:
+        runs_year = 1
+        runs_month = 3
+    else:
+        runs_year = 5
+        runs_month = 12
+
+    for j in range(runs_year):
+        for i in range(runs_month):
             start_date = "{year}-{month}-01T00:00:00.000Z".format(year = year, month = month)
             start_list.append(start_date)
             if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12:
@@ -97,8 +97,6 @@ def get_star_end_list(year = 2016, month = 2):
                 day = 28
             end_date = "{year}-{month}-{day}T00:00:00.000Z".format(year = year, month = month, day = day)
             end_list.append(end_date)
-            print("Start: ",start_date)
-            print("End: ",end_date)
             if year == 2020 and month == 7:
                 break
             elif month < 12:
@@ -107,30 +105,21 @@ def get_star_end_list(year = 2016, month = 2):
                 month = 1
                 break
         year += 1
-    logger.info("Start_List: {start_list} \nEnd_List: {end_list}".format(start_list = start_list, end_list = end_list))
+    logger.info("Start_List: {start_list} \n\tEnd_List: {end_list}".format(start_list = start_list, end_list = end_list))
 
-get_star_end_list()
 
-max_results = 500
-
-url = create_url(keyword, start_time, end_time, max_results)
-json_response = connect_to_endpoint(url[0], headers, url[1])
-
-#print(json.dumps(json_response, indent=4, sort_keys=True))
-
-#json_response['data'][0]['created_at']
-#json_response['meta']['result_count']
-
-with open('data.json', 'w') as f:  
-    json.dump(json_response, f)
+def write_to_json(json_response):
+    with open('data.json', 'w') as f:  
+        json.dump(json_response, f)
 
 #Create a custom CSV file
-csvFile = open("data.csv", "a", newline="", encoding='utf-8')
-csvWriter = csv.writer(csvFile)
+def create_custom_CSV():
+    csvFile = open("data.csv", "a", newline="", encoding='utf-8')
+    csvWriter = csv.writer(csvFile)
 
-#Create Headers for CSV File
-csvWriter.writerow(['author_id', 'created_at', 'tweet_id', 'lang', 'retweet_count', 'reply_count', 'like_count', 'quote_count', 'source', 'text'])
-csvFile.close()
+    #Create Headers for CSV File
+    csvWriter.writerow(['author_id', 'created_at', 'tweet_id', 'lang', 'retweet_count', 'reply_count', 'like_count', 'quote_count', 'source', 'text'])
+    csvFile.close()
 
 #Enter Value to CSV File funktion
 def append_to_csv(json_response, filename):
@@ -169,6 +158,84 @@ def append_to_csv(json_response, filename):
     #Print the number of tweets for the iteration
     print("# of Tweets added from this response: ", counter)
 
+#Execute the request
+def execute_twitter_request(total_tweets):
+    for i in range(0,len(start_list)):
+
+        #Inputs
+        count = 0 #Counting number of tweets
+        max_count = 10 #Max tweets per time periode
+        flag = True
+        next_token = None
+
+        while flag:
+            if count >= max_count:
+                logger.info("Max Count is reached")
+                break
+            print("-----------\n {next_token}".format(next_token = next_token))
+            logger.info("Next Token: {next_token}".format(next_token = next_token))
+            url = create_url(keyword, start_list[i], end_list[i], max_results)
+            json_response = connect_to_endpoint(url[0], headers, url[1])
+
+            result_count = json_response['meta']['result_count']
+
+            #Check for a new token
+            if 'next_token' in json_response['meta']:
+                #Save token for later
+                next_token = json_response['meta']['next_token']
+                print("Next Token: ", next_token)
+                logger.info("Next Token: {next_token}".format(next_token = next_token))
+                
+                if result_count is not None and result_count > 0 and next_token is not None:
+                    print("Start Date: ", start_list[i])
+                    logger.info("Start with : {start_date}".format(start_date = start_list[i]))
+                    write_to_json(json_response)
+                    append_to_csv(json_response, "data.csv")
+                    count += result_count
+                    total_tweets += result_count
+                    print("Total # of Tweets added: ", total_tweets)
+                    logger.info("Number of tweets: {tweets}".format(tweets = total_tweets))
+                    print("-------------------")
+                    time.sleep(5)                
+                 # If no next token exists
+                else:
+                    if result_count is not None and result_count > 0:
+                        print("-------------------")
+                        print("Start Date: ", start_list[i])
+                        logger.info("Start with : {start_date}".format(start_date = start_list[i]))
+                        append_to_csv(json_response, "data.csv")
+                        count += result_count
+                        total_tweets += result_count
+                        print("Total # of Tweets added: ", total_tweets)
+                        logger.info("Number of tweets: {tweets}".format(tweets = total_tweets))
+                        print("-------------------")
+                        time.sleep(5)
+                    
+                    #If this is the last request: flag to false
+                    flag = False
+                    next_token = None
+                time.sleep(5)
+    print("Total number of results: ", total_tweets)
+
+#Funktion to run the hole script
+def run_script(test):
+    create_custom_CSV()
+    get_star_end_list(test=test)
+    print(start_list)
+    execute_twitter_request(total_tweets)
+
+#Inputs for the Request
+bearer_token = auth()
+headers = create_headers(bearer_token)
+keyword = "wirecard lang:de"
+
+start_list = []
+end_list = []
+
+max_results = 50
+
+total_tweets = 0
+
 
 #Take Action
-append_to_csv(json_response, "data.csv")
+run_script(True)

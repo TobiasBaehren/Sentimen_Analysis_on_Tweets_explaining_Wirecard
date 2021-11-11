@@ -63,8 +63,8 @@ start_list = []
 end_list = []
 def get_start_end(year = 2016, month = 2):
 
-    for j in range(5):
-        for i in range(12):
+    for j in range(1):
+        for i in range(1):
             start_date = "{year}-{month}-01T00:00:00.000Z".format(year = year, month = month)
             start_list.append(start_date)
             if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12:
@@ -93,5 +93,16 @@ get_start_end()
 print(start_list)
 print(end_list)
 
-print(start_list[8])
-print(end_list[8])
+#print(start_list[8])
+#print(end_list[8])
+
+def ausgabe(jahr = 2020, monat = 1, test = False):
+    if test:
+        print(jahr)
+        print(monat)
+        print(test_variable_nach_fkt)
+    else:
+        print("Kotstulle")
+
+test_variable_nach_fkt = "Das ist ein Test"
+ausgabe(test=True)
