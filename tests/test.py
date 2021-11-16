@@ -1,5 +1,6 @@
 import csv
 import logging
+from typing import Counter
 
 logging.basicConfig(filename="testlog.log", filemode='w', format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
@@ -62,11 +63,12 @@ print("TEST!123")
 start_list = []
 end_list = []
 def get_start_end(year = 2016, month = 2):
-
-    for j in range(1):
-        for i in range(1):
+    num_of_runs = 0
+    for j in range(5):
+        for i in range(12):
             start_date = "{year}-{month}-01T00:00:00.000Z".format(year = year, month = month)
             start_list.append(start_date)
+            num_of_runs += 1
             if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12:
                 day = 31
             elif month == 4 or month == 6 or month == 9 or month == 11:
@@ -88,6 +90,7 @@ def get_start_end(year = 2016, month = 2):
                 month = 1
                 break
         year += 1
+    print("Durchläufe", num_of_runs)
 get_start_end()
 
 print(start_list)
@@ -106,3 +109,24 @@ def ausgabe(jahr = 2020, monat = 1, test = False):
 
 test_variable_nach_fkt = "Das ist ein Test"
 ausgabe(test=True)
+
+import json
+
+filename = 'your_file.json'
+lst = {'data':[{'alice': 24}, {'bob': 27}],'meta':[{'name':2}, {'age':2}]}
+
+# Write the initial json object (list of dicts)
+with open(filename, mode='w') as f:
+    json.dump(lst, f)
+
+print(lst['data'])
+
+# Append the new dict to the list and overwrite whole file
+def add_to_json():
+    more = {'carl':33}
+    with open(filename, mode='w') as f:
+        #lst.append({'data':{'carl':33}})
+        lst['data'].append(more)
+        json.dump(lst, f)
+
+add_to_json()

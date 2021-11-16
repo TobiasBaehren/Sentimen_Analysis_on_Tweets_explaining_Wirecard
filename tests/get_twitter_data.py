@@ -107,6 +107,10 @@ def get_star_end_list(year = 2016, month = 2, test = False):
         year += 1
     logger.info("Start_List: {start_list} \n\tEnd_List: {end_list}".format(start_list = start_list, end_list = end_list))
 
+def create_json(json_response):
+    json_data = json_response['data']
+    json_includes = json_response['includes']
+    json_meta = json_response['meta']
 
 def write_to_json(json_response):
     with open('data.json', 'w') as f:  
@@ -218,7 +222,7 @@ def execute_twitter_request(total_tweets):
     print("Total number of results: ", total_tweets)
 
 #Funktion to run the hole script
-def run_script(test):
+def run_script(test = False):
     create_custom_CSV()
     get_star_end_list(test=test)
     print(start_list)
@@ -239,3 +243,8 @@ total_tweets = 0
 
 #Take Action
 run_script(True)
+
+#Further To-Dos
+#Write more json files to get all the information / write information into a list and write one json for each month/ hole time
+#Which Keywords are important
+#Do I have all required information in the CSV? 
