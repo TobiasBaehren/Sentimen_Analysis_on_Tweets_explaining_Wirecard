@@ -1,6 +1,7 @@
 import csv
 import logging
 from typing import Counter
+import numpy as np
 
 logging.basicConfig(filename="testlog.log", filemode='w', format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
@@ -113,7 +114,8 @@ ausgabe(test=True)
 import json
 
 filename = 'your_file.json'
-lst = {'data':[{'alice': 24}, {'bob': 27}],'meta':[{'name':2}, {'age':2}]}
+lst = {'data':[], 'meta':{'name':[], 'age':[]}}
+data = {'data':[{'alice': 24}, {'bob': 27}],'meta':{'name':2, 'age':2}}
 
 # Write the initial json object (list of dicts)
 with open(filename, mode='w') as f:
@@ -123,10 +125,69 @@ print(lst['data'])
 
 # Append the new dict to the list and overwrite whole file
 def add_to_json():
-    more = {'carl':33}
+    more = {'data':[{'carl':33}], 'meta':{'name':1, 'age':1}}
+
     with open(filename, mode='w') as f:
         #lst.append({'data':{'carl':33}})
-        lst['data'].append(more)
+        lst['data'].append(more['data'][0])
+        lst['meta']['name'].append(more['meta']['name'])
+        lst['meta']['age'].append(more['meta']['age'])
+        
         json.dump(lst, f)
 
-add_to_json()
+
+
+def add_to_json_2(data):
+    with open(filename, mode='w') as f:
+        #lst.append({'data':{'carl':33}})
+        #print(type(more['data']))
+        #print(len(more['data']))
+        for each in range(0,len(data['data'])):
+            print(each)
+            print(type(lst['data']))
+            lst['data'].append(data['data'][each])
+        #print("Meta in Data: ",data['meta']['name'])
+        #print("Meat in lst: ", lst['meta']['name'])
+        #print(type(lst['meta']['name']))
+        if 'meta' in data:
+            lst['meta']['name'].append(data['meta']['name'])
+            lst['meta']['age'].append(data['meta']['age'])
+
+        #lst['meta']['name'] = data['meta']['name']
+        #lst['meta']['age'] = data['meta']['age']
+        print(type(lst['meta']))
+        json.dump(lst, f)
+
+more = {'data':[{'carl':33}], 'meta':{'name':1, 'age':1}}
+more2 = {'data':[{'carl':33}]}
+
+
+add_to_json_2(data)
+add_to_json_2(more)
+add_to_json_2(more2)
+
+#current_year = 0
+def check_year(timestamp, current_year = 0):
+    print("Start with: ", timestamp)
+    print("current_year is: ", current_year)
+    if current_year != timestamp[0:4]:
+        current_year = timestamp[0:4]
+        print(current_year)
+
+
+
+
+timestamp = ['2016-2-01T00:00:00.000Z','2016-2-01T00:00:00.000Z', '2017-2-01T00:00:00.000Z']
+#print(timestamp[0:4])
+
+for each in range(0,len(timestamp)):
+    print(timestamp[each])
+    check_year(timestamp[each])
+
+print(type("Test_{year}".format(year = timestamp[0][0:4])))
+print(timestamp[0][0:4],"test")
+
+
+keyword = "wirecard lang:en"
+x = keyword.split()
+print(keyword.split()[0])

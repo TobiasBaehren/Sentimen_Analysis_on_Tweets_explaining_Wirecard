@@ -1,1 +1,1 @@
-{"data": [{"alice": 24}, {"bob": 27}, {"carl": 33}], "meta": [{"name": 2}, {"age": 2}]}
+{"data": [{"alice": 24}, {"bob": 27}, {"carl": 33}, {"carl": 33}], "meta": {"name": [2, 1], "age": [2, 1]}}

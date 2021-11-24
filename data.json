@@ -1,593 +1,52 @@
 {
     "data": [
         {
-            "text": "RT @Lordshipstrade: Finanzaufsicht BaFin geht Vorw\u00fcrfen in Wirecard-Aff\u00e4re nach https://t.co/fIEPOqTxtO via @SPIEGELONLINE Hard hat time 4\u2026",
+            "lang": "de",
+            "created_at": "2016-03-30T23:28:54.000Z",
+            "source": "Aktien",
+            "id": "715319924462370817",
+            "author_id": "163466981",
+            "conversation_id": "715319924462370817",
+            "reply_settings": "everyone",
+            "text": "Wirecard: Das kam \u00fcberraschend! https://t.co/W8HD2rr4pR",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            }
+        },
+        {
+            "lang": "de",
+            "created_at": "2016-03-30T19:11:18.000Z",
             "source": "Twitter for iPhone",
-            "created_at": "2016-04-29T22:31:54.000Z",
-            "conversation_id": "726177213763166208",
-            "author_id": "22976263",
+            "id": "715255097958219776",
+            "author_id": "2274474644",
+            "conversation_id": "715255097958219776",
             "reply_settings": "everyone",
-            "id": "726177213763166208",
-            "referenced_tweets": [
-                {
-                    "type": "retweeted",
-                    "id": "726158518517116929"
-                }
-            ],
-            "lang": "de",
+            "text": "RT @DGAP_Ad_hoc: Wirecard AG: EBITDA-Prognose 2016 erh\u00f6ht https://t.co/iF376QKXvQ",
             "public_metrics": {
                 "retweet_count": 1,
                 "reply_count": 0,
                 "like_count": 0,
                 "quote_count": 0
-            }
-        },
-        {
-            "text": "Finanzaufsicht BaFin geht Vorw\u00fcrfen in Wirecard-Aff\u00e4re nach https://t.co/fIEPOqTxtO via @SPIEGELONLINE Hard hat time 4 $WDI longs on Monday",
-            "source": "Twitter for iPad",
-            "created_at": "2016-04-29T21:17:36.000Z",
-            "conversation_id": "726158518517116929",
-            "author_id": "2651811175",
-            "reply_settings": "everyone",
-            "id": "726158518517116929",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 1,
-                "like_count": 1,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "DGAP-Stimmrechte: Wirecard AG (deutsch) https://t.co/rc8eNYeKG7",
-            "source": "sjbblog.de",
-            "created_at": "2016-04-29T16:34:14.000Z",
-            "conversation_id": "726087207342235650",
-            "author_id": "340329223",
-            "reply_settings": "everyone",
-            "id": "726087207342235650",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard AG: Ver\u00f6ffentlichung gem\u00e4\u00df \u00a7 26 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung https://t.co/DKmqePSmiz",
-            "source": "DGAP_PVR",
-            "created_at": "2016-04-29T16:31:20.000Z",
-            "conversation_id": "726086474542813185",
-            "author_id": "41346564",
-            "reply_settings": "everyone",
-            "id": "726086474542813185",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "@iPhoneCrackx @therealkings86 @number26 \n\nman N26 .. ist WIRECARD .. ist Mastercard .. ist .. boon ..\n\n.. das m\u00fc\u00dftest Du seit 2014 wissen.",
-            "source": "Twitter for iPad",
-            "created_at": "2016-04-29T13:57:39.000Z",
-            "conversation_id": "725227125268164608",
-            "author_id": "22904974",
-            "reply_settings": "everyone",
-            "in_reply_to_user_id": "1320501924",
-            "id": "726047799704444930",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "726047126447394816"
-                }
-            ],
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 2,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "#Wirecard -3% auf 36,95\u20ac. Gewinnmitnahmen nach starken Zahlen. #HOLD mit Stopp bei 31\u20ac. /AD https://t.co/VQC1cD1TGb https://t.co/Q0n2GCNPRy",
-            "source": "Twitter Web Client",
-            "created_at": "2016-04-29T13:49:56.000Z",
-            "conversation_id": "726045857406177280",
-            "author_id": "19811837",
-            "reply_settings": "everyone",
-            "id": "726045857406177280",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "wikifolio whispers p.m. zu Royal Dutch Shell, E.ON , RWE, WireCard, Volkswagen Vz., AXA, Gilead Sciences, Lufthansa  https://t.co/hkR5Cfa2Ry",
-            "source": "Josef Chladek",
-            "created_at": "2016-04-29T12:10:06.000Z",
-            "conversation_id": "726020734921924608",
-            "author_id": "37382601",
-            "reply_settings": "everyone",
-            "id": "726020734921924608",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard Aktie: Eine viel zu hohe H\u00fcrde? https://t.co/PlcbMa1dqW",
-            "source": "dlvr.it",
-            "created_at": "2016-04-29T10:42:10.000Z",
-            "conversation_id": "725998605182492672",
-            "author_id": "42907143",
-            "reply_settings": "everyone",
-            "id": "725998605182492672",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "\ud83d\udcc8 Wirecard Aktie: Eine viel zu hohe H\u00fcrde? https://t.co/cFIUxu8IaZ \u275a4INVESTORS",
-            "source": "dlvr.it",
-            "created_at": "2016-04-29T10:06:37.000Z",
-            "conversation_id": "725989657750605824",
-            "author_id": "183289696",
-            "reply_settings": "everyone",
-            "id": "725989657750605824",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard Aktie: Eine viel zu hohe H\u00fcrde? https://t.co/dCXwA1aG9N #chartanalysen",
-            "source": "twitterfeed",
-            "created_at": "2016-04-29T10:05:51.000Z",
-            "conversation_id": "725989467186581504",
-            "author_id": "117570447",
-            "reply_settings": "everyone",
-            "id": "725989467186581504",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard, Str\u00f6er: Wie dubiose Studien den Aktienmarkt schocken: Sowohl die Aktien von\u2026 https://t.co/tYuhefZYUP",
-            "source": "Google",
-            "created_at": "2016-04-29T09:44:59.000Z",
-            "conversation_id": "725984215444119552",
-            "author_id": "593842063",
-            "reply_settings": "everyone",
-            "id": "725984215444119552",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "RT @wiwo: Wirecard, Str\u00f6er: Wie dubiose Studien den Aktienmarkt schocken https://t.co/7anRhlGpjr",
-            "source": "Twitter for iPhone",
-            "created_at": "2016-04-29T09:42:55.000Z",
-            "conversation_id": "725983692838064128",
-            "author_id": "19774238",
-            "reply_settings": "everyone",
-            "id": "725983692838064128",
-            "referenced_tweets": [
-                {
-                    "type": "retweeted",
-                    "id": "725983395319148544"
-                }
-            ],
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard, Str\u00f6er: Wie dubiose Studien den Aktienmarkt schocken https://t.co/7anRhlGpjr",
-            "source": "twitterfeed",
-            "created_at": "2016-04-29T09:41:44.000Z",
-            "conversation_id": "725983395319148544",
-            "author_id": "19709133",
-            "reply_settings": "everyone",
-            "id": "725983395319148544",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "B\u00f6rse: Angriffe auf Wirecard und Str\u00f6er https://t.co/wbfpYw7W5g",
-            "source": "twitterfeed",
-            "created_at": "2016-04-29T09:41:44.000Z",
-            "conversation_id": "725983394576789504",
-            "author_id": "19709133",
-            "reply_settings": "everyone",
-            "id": "725983394576789504",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard, Str\u00f6er: Wie dubiose Studien den Aktienmarkt schocken https://t.co/JDi8PwszKO",
-            "source": "dlvr.it",
-            "created_at": "2016-04-29T09:41:27.000Z",
-            "conversation_id": "725983323139366912",
-            "author_id": "1062894738",
-            "reply_settings": "everyone",
-            "id": "725983323139366912",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard: Das klingt nach allererster Sahne!: Liebe Leser, das d\u00fcrfte die Shorties kaum gefreut haben: Die Wirecard\u2026 https://t.co/rNDE0y7u8i",
-            "source": "Google",
-            "created_at": "2016-04-29T09:25:00.000Z",
-            "conversation_id": "725979185475407872",
-            "author_id": "239405776",
-            "reply_settings": "everyone",
-            "id": "725979185475407872",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard: Ein Tag von h\u00f6chster Bedeutsamkeit! | InvestorSMS https://t.co/xBsVyTF8Wp",
-            "source": "Facebook",
-            "created_at": "2016-04-29T06:32:31.000Z",
-            "conversation_id": "725935777725587458",
-            "author_id": "21302223",
-            "reply_settings": "everyone",
-            "id": "725935777725587458",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Hier mein Einladelink f\u00fcr Wirecard Bank - Prepaid Trio ohne Schufa: htt ...",
-            "source": "Traiborg",
-            "created_at": "2016-04-29T06:30:36.000Z",
-            "conversation_id": "725935295019933696",
-            "author_id": "215915843",
-            "reply_settings": "everyone",
-            "id": "725935295019933696",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Hier mein Einladelink f\u00fcr Wirecard Bank - Prepaid Trio ohne Schufa: https://t.co/SRjE6BUgYI",
-            "source": "Twitter Web Client",
-            "created_at": "2016-04-29T06:23:49.000Z",
-            "conversation_id": "725933590924517376",
-            "author_id": "215915843",
-            "reply_settings": "everyone",
-            "id": "725933590924517376",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard-Aktie: Ausgezeichnete Aussichten! Kepler Cheuvreux r\u00e4t zum Kauf - Aktienanalyse https://t.co/IZrUxP7rq2",
-            "source": "Aktien",
-            "created_at": "2016-04-29T06:14:40.000Z",
-            "conversation_id": "725931284841656320",
-            "author_id": "163466981",
-            "reply_settings": "everyone",
-            "id": "725931284841656320",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Deutsche Bank: Widerstand geschafft, sehen wir jetzt 18,84 Euro? - Barrick Gold, Wirecard, Str\u00f6er, RWE, E.ON,  https://t.co/IkUqxgraoH",
-            "source": "Aktien",
-            "created_at": "2016-04-29T04:53:37.000Z",
-            "conversation_id": "725910888297820160",
-            "author_id": "163466981",
-            "reply_settings": "everyone",
-            "id": "725910888297820160",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Str\u00f6er: Im Gegensatz zu Wirecard trifft der massive Kursr\u00fcckgang\u2026 https://t.co/1ElrzHGVcG",
-            "source": "Aktien",
-            "created_at": "2016-04-28T22:38:14.000Z",
-            "conversation_id": "725816420441948160",
-            "author_id": "163466981",
-            "reply_settings": "everyone",
-            "id": "725816420441948160",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "@MaxFassbrause @wirecard Danke f\u00fcr den Tipp. Hat funktioniert!",
-            "source": "Twitter for Android",
-            "created_at": "2016-04-28T20:42:35.000Z",
-            "conversation_id": "725784104969625607",
-            "author_id": "38938615",
-            "reply_settings": "everyone",
-            "in_reply_to_user_id": "2984008847",
-            "id": "725787317013729280",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "725784812955525120"
-                }
-            ],
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "@real_mos @wirecard Leider ist so ein Mist Wasser auf die \"Nur bares ist wahres\"-M\u00fchlen\u2026 Vom eigenen Guthaben ausgesperrt ist heftig",
-            "source": "Twitter Web Client",
-            "created_at": "2016-04-28T20:33:11.000Z",
-            "conversation_id": "725784104969625607",
-            "author_id": "2984008847",
-            "reply_settings": "everyone",
-            "in_reply_to_user_id": "38938615",
-            "id": "725784953414373377",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "725784104969625607"
-                }
-            ],
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 1,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "@real_mos @wirecard Geisterupdate \u2013 App data l\u00f6schen und neu einloggen. Bekanntes Problem.",
-            "source": "Twitter Web Client",
-            "created_at": "2016-04-28T20:32:38.000Z",
-            "conversation_id": "725784104969625607",
-            "author_id": "2984008847",
-            "reply_settings": "everyone",
-            "in_reply_to_user_id": "38938615",
-            "id": "725784812955525120",
-            "referenced_tweets": [
-                {
-                    "type": "replied_to",
-                    "id": "725784104969625607"
-                }
-            ],
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 1,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "@wirecard Boon meldet beim Start: Neue Version verf\u00fcgbar. Kann man nicht wegklicken und im Playstore gibt es noch kein Update.",
-            "source": "Twitter for Android",
-            "created_at": "2016-04-28T20:29:49.000Z",
-            "conversation_id": "725784104969625607",
-            "author_id": "38938615",
-            "reply_settings": "everyone",
-            "in_reply_to_user_id": "42056054",
-            "id": "725784104969625607",
-            "geo": {
-                "place_id": "8abc99434d4f5d28"
             },
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 2,
-                "like_count": 1,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard: Nimmt der Irrsinn denn gar kein Ende mehr? https://t.co/JPLa1jS8VY",
-            "source": "Aktien",
-            "created_at": "2016-04-28T20:06:06.000Z",
-            "conversation_id": "725778134247858178",
-            "author_id": "163466981",
-            "reply_settings": "everyone",
-            "id": "725778134247858178",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard-Aktie: Ausgezeichnete Aussichten! Kepler Cheuvreux r\u00e4t zum Kauf... https://t.co/2PKcYX5PUI",
-            "source": "Facebook",
-            "created_at": "2016-04-28T19:31:46.000Z",
-            "conversation_id": "725769494237302784",
-            "author_id": "21302223",
-            "reply_settings": "everyone",
-            "id": "725769494237302784",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard-Aktie: Ausgezeichnete Aussichten! Kepler Cheuvreux r\u00e4t zum Kauf - Aktienanalyse: Frankfurt (www\u2026 https://t.co/3Y44Jgs9QC",
-            "source": "Google",
-            "created_at": "2016-04-28T19:30:31.000Z",
-            "conversation_id": "725769181912686592",
-            "author_id": "259733922",
-            "reply_settings": "everyone",
-            "id": "725769181912686592",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Deutsche Bank: Widerstand geschafft, sehen wir jetzt 18,84 Euro? - Barrick Gold, Wirecard, Str\u00f6er, RWE, E.ON,  https://t.co/85RZsRdUK6",
-            "source": "FNTweetCenterDax30",
-            "created_at": "2016-04-28T18:46:28.000Z",
-            "conversation_id": "725758094727335936",
-            "author_id": "163537654",
-            "reply_settings": "everyone",
-            "id": "725758094727335936",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Deutsche Bank: Widerstand geschafft, sehen wir jetzt 18,84 Euro? - Barrick Gold, Wirecard, Str\u00f6er, RWE, E.ON,... https://t.co/qHAGheoKpN",
-            "source": "twitterfeed",
-            "created_at": "2016-04-28T17:54:51.000Z",
-            "conversation_id": "725745106574151680",
-            "author_id": "517707729",
-            "reply_settings": "everyone",
-            "id": "725745106574151680",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Str\u00f6er: Im Gegensatz zu Wirecard trifft der massive Kursr\u00fcckgang\u2026 https://t.co/2fQ6JskNa1 #Finanznachrichten",
-            "source": "twitterfeed",
-            "created_at": "2016-04-28T17:08:32.000Z",
-            "conversation_id": "725733449005326336",
-            "author_id": "117570447",
-            "reply_settings": "everyone",
-            "id": "725733449005326336",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "@thinkslowly schon mal g\u00fcnstiger und GLS ist ja grunds\u00e4tzlich keine schlechte Sache. @glsbank KK vielleicht sogar komplett \u00fcber WireCard?",
-            "source": "Twitter for Mac",
-            "created_at": "2016-04-28T16:42:05.000Z",
-            "conversation_id": "725722013864738818",
-            "author_id": "14361682",
-            "reply_settings": "everyone",
-            "in_reply_to_user_id": "22896461",
-            "id": "725726793718747143",
             "referenced_tweets": [
                 {
-                    "type": "replied_to",
-                    "id": "725724439330078720"
+                    "type": "retweeted",
+                    "id": "715066408204427264"
                 }
-            ],
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
+            ]
         },
         {
-            "text": "#Finanznachrichten: Kepler Cheuvreux bel\u00e4sst Wirecard auf 'Buy' - Ziel 55 Euro https://t.co/MymFFWzYmc",
-            "source": "IFTTT",
-            "created_at": "2016-04-28T14:27:38.000Z",
-            "conversation_id": "725692956070580224",
-            "author_id": "2807967368",
+            "lang": "de",
+            "created_at": "2016-03-30T17:36:18.000Z",
+            "source": "twitterfeed",
+            "id": "715231190253379588",
+            "author_id": "209054410",
+            "conversation_id": "715231190253379588",
             "reply_settings": "everyone",
-            "id": "725692956070580224",
-            "lang": "de",
+            "text": "Angriff auf die Glaubw\u00fcrdigkeit: Ein omin\u00f6ser Bericht wirft Wirecard Betr\u00fcgereien vor, die Firma wehrt sich. https://t.co/ynkv4b1Rz1",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -596,14 +55,14 @@
             }
         },
         {
-            "text": "Kepler Cheuvreux bel\u00e4sst Wirecard auf 'Buy' - Ziel 55 Euro: FRANKFURT (dpa-AFX Analyser) - Das Analysehaus Kepler\u2026 https://t.co/6R4lUilXJN",
+            "lang": "de",
+            "created_at": "2016-03-30T17:16:28.000Z",
             "source": "Google",
-            "created_at": "2016-04-28T13:51:34.000Z",
-            "conversation_id": "725683883178647552",
+            "id": "715226198603931648",
             "author_id": "239405776",
+            "conversation_id": "715226198603931648",
             "reply_settings": "everyone",
-            "id": "725683883178647552",
-            "lang": "de",
+            "text": "Wirecard: Hat der Irrsinn jetzt ein Ende?: Lieber Leser, seit dem 24. Februar ist die Wirecard Aktie\u2026 https://t.co/A3p9I6tREb",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -612,30 +71,14 @@
             }
         },
         {
-            "text": "Kepler Cheuvreux bel\u00e4sst Wirecard auf 'Buy' - Ziel 55 Euro https://t.co/CZjpBUqlse",
-            "source": "FNTweetCenterNachrichten",
-            "created_at": "2016-04-28T13:33:56.000Z",
-            "conversation_id": "725679444036300800",
-            "author_id": "163538505",
-            "reply_settings": "everyone",
-            "id": "725679444036300800",
             "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "\u25b6 Kepler Cheuvreux bel\u00e4sst Wirecard auf 'Buy' - Ziel 55 Euro: FRANKFURT (dpa-AFX Analyser) - Das\u2026 https://t.co/VP883K1jWr AKTIENCHECK",
+            "created_at": "2016-03-30T16:54:07.000Z",
             "source": "dlvr.it",
-            "created_at": "2016-04-28T13:32:07.000Z",
-            "conversation_id": "725678988530606080",
-            "author_id": "1289565265",
+            "id": "715220573933010944",
+            "author_id": "3179300667",
+            "conversation_id": "715220573933010944",
             "reply_settings": "everyone",
-            "id": "725678988530606080",
-            "lang": "de",
+            "text": "Wirecard setzt auf Payment-Tablet von Wincor Nixdorf https://t.co/AgSh8NxX0N",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -644,14 +87,14 @@
             }
         },
         {
-            "text": "#Finanznachrichten: Independent Research bel\u00e4sst Wirecard auf 'Kaufen' - Ziel 45 Euro https://t.co/V8JvqCsENQ",
+            "lang": "de",
+            "created_at": "2016-03-30T16:50:39.000Z",
             "source": "IFTTT",
-            "created_at": "2016-04-28T13:27:30.000Z",
-            "conversation_id": "725677826502975489",
-            "author_id": "2807967368",
+            "id": "715219699445940225",
+            "author_id": "24880238",
+            "conversation_id": "715219699445940225",
             "reply_settings": "everyone",
-            "id": "725677826502975489",
-            "lang": "de",
+            "text": "Wirecard setzt auf Payment-Tablet von Wincor Nixdorf #mPayment https://t.co/JccUipWqDV",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -660,14 +103,14 @@
             }
         },
         {
-            "text": "Independent Research bel\u00e4sst Wirecard auf 'Kaufen' - Ziel 45 Euro: FRANKFURT (dpa-AFX Analyser) - Das Analysehaus\u2026 https://t.co/1tnzvqisxO",
-            "source": "Google",
-            "created_at": "2016-04-28T13:10:06.000Z",
-            "conversation_id": "725673446064140288",
-            "author_id": "239405776",
-            "reply_settings": "everyone",
-            "id": "725673446064140288",
             "lang": "de",
+            "created_at": "2016-03-30T16:37:04.000Z",
+            "source": "IT-Times",
+            "id": "715216282531061760",
+            "author_id": "124205250",
+            "conversation_id": "715216282531061760",
+            "reply_settings": "everyone",
+            "text": "Wirecard setzt auf Payment-Tablet von Wincor Nixdorf #MobilePayment https://t.co/3bm7i6Duwr https://t.co/dYlvwXEDwI",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -676,174 +119,52 @@
             }
         },
         {
-            "text": "\u25b6 Independent Research bel\u00e4sst Wirecard auf 'Kaufen' - Ziel 45 Euro: FRANKFURT (dpa-AFX Analyser) - Das\u2026 https://t.co/v4MgPxc4y8 AKTIENCHECK",
+            "lang": "de",
+            "created_at": "2016-03-30T15:38:25.000Z",
+            "source": "Twitter for Android",
+            "id": "715201520938131457",
+            "author_id": "2984008847",
+            "conversation_id": "715201520938131457",
+            "reply_settings": "everyone",
+            "text": "RT @franke_media: B\u00f6rse heute: #Wirecard setzt Gewinnprognose herauf - #DAX klettert \u00fcber 10.000 Punkte und die #FED beruhigt die Anleger",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "715183110908981250"
+                }
+            ]
+        },
+        {
+            "lang": "de",
+            "created_at": "2016-03-30T15:01:07.000Z",
             "source": "dlvr.it",
-            "created_at": "2016-04-28T13:04:14.000Z",
-            "conversation_id": "725671970520473600",
-            "author_id": "1289565265",
-            "reply_settings": "everyone",
-            "id": "725671970520473600",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "\u25b6 Warburg Research bel\u00e4sst Wirecard auf 'Buy' - Ziel 60 Euro: Das Analysehaus Warburg Research\u2026 https://t.co/3vT7uhCS9v FINANZNACHRICHTEN.de",
-            "source": "dlvr.it",
-            "created_at": "2016-04-28T12:58:06.000Z",
-            "conversation_id": "725670425888313344",
-            "author_id": "1289565265",
-            "reply_settings": "everyone",
-            "id": "725670425888313344",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "\u25b6 Wirecard-Aktie: Q1-Eckdaten als positiver Impulsegeber! Independent Research r\u00e4t zum Kauf -\u2026 https://t.co/bAuTwjCRJx AKTIENCHECKde",
-            "source": "dlvr.it",
-            "created_at": "2016-04-28T12:39:17.000Z",
-            "conversation_id": "725665691508957184",
-            "author_id": "1289565265",
-            "reply_settings": "everyone",
-            "id": "725665691508957184",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard: Vertrauensbeweis https://t.co/McbJm33eqy",
-            "source": "dlvr.it",
-            "created_at": "2016-04-28T12:19:36.000Z",
-            "conversation_id": "725660734990913536",
+            "id": "715192136337985536",
             "author_id": "42907143",
+            "conversation_id": "715192136337985536",
             "reply_settings": "everyone",
-            "id": "725660734990913536",
-            "lang": "de",
+            "text": "Wirecard: Aufw\u00e4rtspotenzial liegt bei fast 90 Prozent https://t.co/u700EPIyw4",
             "public_metrics": {
-                "retweet_count": 0,
+                "retweet_count": 1,
                 "reply_count": 0,
-                "like_count": 0,
+                "like_count": 2,
                 "quote_count": 0
             }
         },
         {
-            "text": "\u25b6 Wirecard-Aktie: Leerverk\u00e4ufer Coatue Management tritt den R\u00fcckzug an - Aktiennews: Aschheim\u2026 https://t.co/aUR4oAFnWP AKTIENCHECKde",
-            "source": "dlvr.it",
-            "created_at": "2016-04-28T12:04:08.000Z",
-            "conversation_id": "725656846749454336",
-            "author_id": "1289565265",
-            "reply_settings": "everyone",
-            "id": "725656846749454336",
             "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Wirecard buy: HAMBURG (dpa-AFX Analyser) - Das Analysehaus Warburg Research hat die Einstu... https://t.co/PX5i0FvblH ... #news #analyse",
-            "source": "twitterfeed",
-            "created_at": "2016-04-28T11:00:28.000Z",
-            "conversation_id": "725640821823836160",
-            "author_id": "44454057",
+            "created_at": "2016-03-30T14:31:51.000Z",
+            "source": "Facebook",
+            "id": "715184771484229632",
+            "author_id": "21302223",
+            "conversation_id": "715184771484229632",
             "reply_settings": "everyone",
-            "id": "725640821823836160",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "\u25b6 Commerzbank bel\u00e4sst Wirecard auf 'Buy' - Ziel 55 Euro: Die Commerzbank hat die Einstufung\u2026 https://t.co/XOLYLVQpc9 FINANZNACHRICHTEN.de",
-            "source": "dlvr.it",
-            "created_at": "2016-04-28T10:09:40.000Z",
-            "conversation_id": "725628039673999360",
-            "author_id": "1289565265",
-            "reply_settings": "everyone",
-            "id": "725628039673999360",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "#TecDax: Flucht aus #Qiagen ++ #Wirecard gibt nach ++ #Siltronic unter Druck ++ #S\u00fcss sinkt ++ TecDax erh\u00f6ht Verlust https://t.co/dfBcqTzKWS",
-            "source": "Twitter Web Client",
-            "created_at": "2016-04-28T09:52:23.000Z",
-            "conversation_id": "725623688373096448",
-            "author_id": "192862223",
-            "reply_settings": "everyone",
-            "id": "725623688373096448",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Nordex: Warum kommt die Aktie nicht vom Fleck? Nach Wirecard und Str\u00f6er das n\u00e4chstes Oper ... https://t.co/F1LFxxgVZl #Finanznachrichten",
-            "source": "twitterfeed",
-            "created_at": "2016-04-28T09:14:01.000Z",
-            "conversation_id": "725614034267992064",
-            "author_id": "117570447",
-            "reply_settings": "everyone",
-            "id": "725614034267992064",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "Nordex: Warum kommt die Aktie nicht vom Fleck? Nach Wirecard und Str\u00f6er das n\u00e4chstes Opfer einer U... https://t.co/fDahnOzz4J",
-            "source": "NetworkedBlogs",
-            "created_at": "2016-04-28T08:08:04.000Z",
-            "conversation_id": "725597435473448960",
-            "author_id": "315887594",
-            "reply_settings": "everyone",
-            "id": "725597435473448960",
-            "lang": "de",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            }
-        },
-        {
-            "text": "#TecDax: #Siltronic sackt ab ++ #Qiagen schwach ++ #Aixtron f\u00e4llt weiter ++ #Wirecard gestoppt ++ TecDax sinkt https://t.co/bxCDQDsRFS",
-            "source": "Twitter Web Client",
-            "created_at": "2016-04-28T08:00:10.000Z",
-            "conversation_id": "725595447985864705",
-            "author_id": "192862223",
-            "reply_settings": "everyone",
-            "id": "725595447985864705",
-            "lang": "de",
+            "text": "Wirecard: kein Lichtblick IN SICHT? | InvestorSMS https://t.co/7UXVYKKmZu",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
@@ -855,479 +176,151 @@
     "includes": {
         "users": [
             {
+                "verified": false,
+                "description": "Aktuelle Top-News zu Aktien auf https://t.co/LMOUJvy4Aq. Ausgesucht aus t\u00e4glich \u00fcber 11.000 Nachrichten aus dem Bereich B\u00f6rse und Finanzen. Teil von @wotwitt",
+                "username": "FN_Aktien",
+                "id": "163466981",
+                "name": "FinanzNachrichten.de",
+                "created_at": "2010-07-06T14:02:01.000Z",
+                "public_metrics": {
+                    "followers_count": 7427,
+                    "following_count": 4522,
+                    "tweet_count": 102388,
+                    "listed_count": 146
+                }
+            },
+            {
+                "verified": false,
                 "description": "",
+                "username": "AktienFokus_de",
+                "id": "2274474644",
+                "name": "Aktien Fokus",
+                "created_at": "2014-01-03T13:01:10.000Z",
+                "public_metrics": {
+                    "followers_count": 857,
+                    "following_count": 104,
+                    "tweet_count": 592,
+                    "listed_count": 22
+                }
+            },
+            {
                 "verified": false,
-                "created_at": "2009-03-05T20:48:07.000Z",
-                "name": "Mario Suzo",
-                "username": "mariosuzo",
+                "description": "Stadtbezogene #Einkaufsportale",
+                "username": "Hierkaufich",
+                "id": "209054410",
+                "name": "\ud83c\udde9\ud83c\uddea Hierkaufichein",
+                "created_at": "2010-10-28T12:38:14.000Z",
                 "public_metrics": {
-                    "followers_count": 27,
-                    "following_count": 181,
-                    "tweet_count": 1598,
-                    "listed_count": 3
-                },
-                "id": "22976263"
+                    "followers_count": 12148,
+                    "following_count": 8589,
+                    "tweet_count": 529392,
+                    "listed_count": 447
+                }
             },
             {
-                "description": "Managing Partner of ShadowFall, a short-focused hedge fund. Assume @ShadowFallCR holds a short position in Issuers discussed.",
                 "verified": false,
-                "created_at": "2014-07-16T19:53:46.000Z",
-                "name": "Matthew Earl",
-                "username": "Lordshipstrade",
-                "public_metrics": {
-                    "followers_count": 5306,
-                    "following_count": 274,
-                    "tweet_count": 1835,
-                    "listed_count": 99
-                },
-                "id": "2651811175"
-            },
-            {
-                "description": "Im SJB-Blog teilt Gerd Bennewirtz, Firmengr\u00fcnder der SJB FondsSkyline, sein Fachwissen mit t\u00e4glichen Beitr\u00e4gen \u00fcber die Finanzwelt.",
-                "verified": false,
-                "created_at": "2011-07-22T14:37:12.000Z",
-                "name": "Fonds-SJB-Blog",
-                "username": "sjbblog",
-                "public_metrics": {
-                    "followers_count": 498,
-                    "following_count": 11,
-                    "tweet_count": 286579,
-                    "listed_count": 29
-                },
-                "id": "340329223"
-            },
-            {
-                "description": "Aktuelle Stimmrechtsmitteilungen - zur Verf\u00fcgung gestellt von http://t.co/l5B8WBH6d4",
-                "verified": false,
-                "created_at": "2009-05-20T12:18:31.000Z",
-                "name": "DGAP-PVR",
-                "username": "DGAP_PVR",
-                "public_metrics": {
-                    "followers_count": 329,
-                    "following_count": 74,
-                    "tweet_count": 41769,
-                    "listed_count": 12
-                },
-                "id": "41346564"
-            },
-            {
-                "description": "RadioAficionado(DL2LK), SDR,DMR,Radioamateur,navegar,segeln,Multimedia,Audio,Video,Spanien,Mallorca,WIN10,ANDROID,iOS,iPad PRO 12.9,TAB-S7+,NOTE20+,DeX,NEO QLED",
-                "verified": false,
-                "created_at": "2009-03-05T10:30:27.000Z",
-                "name": "Wilfried DL2LK",
-                "username": "wahlborn",
-                "public_metrics": {
-                    "followers_count": 3365,
-                    "following_count": 367,
-                    "tweet_count": 567400,
-                    "listed_count": 0
-                },
-                "id": "22904974"
-            },
-            {
-                "description": "\uf8ff Apple & Banking/Payment \ud83d\udcb3 Enthusiast | Jailbreaker since iOS 3.1.3\ud83d\udcf2",
-                "verified": false,
-                "created_at": "2013-04-01T15:00:45.000Z",
-                "name": "Lukas",
-                "username": "iPhoneCrackx",
-                "public_metrics": {
-                    "followers_count": 840,
-                    "following_count": 821,
-                    "tweet_count": 190405,
-                    "listed_count": 233
-                },
-                "id": "1320501924"
-            },
-            {
-                "description": "Schnell, detailliert, auf den Punkt. DER AKTION\u00c4R, Deutschlands f\u00fchrendes B\u00f6rsenmagazin https://t.co/kQjwV0Mdeu",
-                "verified": true,
-                "created_at": "2009-01-31T11:11:51.000Z",
-                "name": "DER AKTION\u00c4R",
-                "username": "aktionaer",
-                "public_metrics": {
-                    "followers_count": 26876,
-                    "following_count": 1887,
-                    "tweet_count": 88702,
-                    "listed_count": 607
-                },
-                "id": "19811837"
-            },
-            {
-                "description": "Unternehmer, Berater, Investor",
-                "verified": false,
-                "created_at": "2009-05-03T07:11:06.000Z",
-                "name": "Christian Drastil",
-                "username": "drastil",
-                "public_metrics": {
-                    "followers_count": 1209,
-                    "following_count": 119,
-                    "tweet_count": 248592,
-                    "listed_count": 187
-                },
-                "id": "37382601"
-            },
-            {
-                "description": "Impressum: https://t.co/DOAdqJ8Vyp - Interviews + Berichte, Schwerpunkt deutscher Aktienmarkt - Hier zwitschern Michael Barck und unser Newsbot.",
-                "verified": false,
-                "created_at": "2009-05-27T15:37:38.000Z",
-                "name": "4investors.de",
-                "username": "4investors",
-                "public_metrics": {
-                    "followers_count": 5000,
-                    "following_count": 405,
-                    "tweet_count": 75934,
-                    "listed_count": 110
-                },
-                "id": "42907143"
-            },
-            {
-                "description": "Smarter menschengesteuerter Nachrichten Bot zu B\u00f6rsen, Aktien, Unternehmen, Investieren. Unterst\u00fctzt von https://t.co/iuJxaqB3zC",
-                "verified": false,
-                "created_at": "2010-08-26T16:53:32.000Z",
-                "name": "B\u00f6rsenberichte",
-                "username": "BoersenDE",
-                "public_metrics": {
-                    "followers_count": 4610,
-                    "following_count": 283,
-                    "tweet_count": 630435,
-                    "listed_count": 0
-                },
-                "id": "183289696"
-            },
-            {
-                "description": "Alles \u00fcber Aktien, B\u00f6rsen, Gesch\u00e4ftsentwicklungen und Business",
-                "verified": false,
-                "created_at": "2010-02-25T23:33:19.000Z",
-                "name": "Misstress DAX",
-                "username": "MISS_DAX",
-                "public_metrics": {
-                    "followers_count": 153,
-                    "following_count": 78,
-                    "tweet_count": 49721,
-                    "listed_count": 9
-                },
-                "id": "117570447"
-            },
-            {
-                "description": "EazyForm.de Werbeagentur - Wir erstellen Interaktive PDF Formular-L\u00f6sungen nach Ihren Anforderungen und Vorgaben.",
-                "verified": false,
-                "created_at": "2012-05-29T16:23:46.000Z",
-                "name": "EaZyForm.de",
-                "username": "EaZyForm",
-                "public_metrics": {
-                    "followers_count": 343,
-                    "following_count": 0,
-                    "tweet_count": 558626,
-                    "listed_count": 135
-                },
-                "id": "593842063"
-            },
-            {
-                "description": "Wir machen Marken zu Freunden @MarketingStoika \n#Marken \ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb #bookfluencer \ud83d\udcda #Merch #Creators \ud83d\udcf8 \nErkl\u00e4rt #Marketing @hmkwofficial @EMSMainz @hs_macromedia",
-                "verified": false,
-                "created_at": "2009-01-30T16:21:02.000Z",
-                "name": "R\u00fcdiger Frankenberger",
-                "username": "kommunikationsm",
-                "public_metrics": {
-                    "followers_count": 2515,
-                    "following_count": 768,
-                    "tweet_count": 40612,
-                    "listed_count": 927
-                },
-                "id": "19774238"
-            },
-            {
-                "description": "Verstehen zahlt sich aus. \u2022 https://t.co/sT6cxnrOWf",
-                "verified": true,
-                "created_at": "2009-01-29T12:52:38.000Z",
-                "name": "WirtschaftsWoche",
-                "username": "wiwo",
-                "public_metrics": {
-                    "followers_count": 251732,
-                    "following_count": 193,
-                    "tweet_count": 94217,
-                    "listed_count": 3020
-                },
-                "id": "19709133"
-            },
-            {
-                "description": "Gl\u00fccklichste Prinzessin auf der Erbse",
-                "verified": false,
-                "created_at": "2013-01-05T12:33:00.000Z",
-                "name": "Sarah",
-                "username": "Quis_Leget_Haec",
-                "public_metrics": {
-                    "followers_count": 1466,
-                    "following_count": 4683,
-                    "tweet_count": 472771,
-                    "listed_count": 93
-                },
-                "id": "1062894738"
-            },
-            {
                 "description": "Aktuelle Analysen und News zu Aktien und Indizes. Kurse, Charts, Diskussionen und mehr...",
-                "verified": false,
-                "created_at": "2011-01-17T15:06:51.000Z",
-                "name": "aktiencheck de",
                 "username": "aktiencheckde",
+                "id": "239405776",
+                "name": "aktiencheck de",
+                "created_at": "2011-01-17T15:06:51.000Z",
                 "public_metrics": {
-                    "followers_count": 785,
+                    "followers_count": 786,
                     "following_count": 5,
                     "tweet_count": 300328,
                     "listed_count": 60
-                },
-                "id": "239405776"
+                }
             },
             {
-                "description": "Investor-SMS: Ihre starke Finanzwebseite f\u00fcr alle Marktnachrichten!\r\n\r\nF\u00fcr hochqualitative kostenlose B\u00f6rsenbriefe folgen Sie uns auch @ISMSBoerse",
                 "verified": false,
-                "created_at": "2009-02-19T14:30:01.000Z",
-                "name": "Investor-SMS",
-                "username": "InvestorSMS",
+                "description": "Aktuelles aus der #Informationstechnologie. Ein Projekt von @DIPLANET Digital Solutions",
+                "username": "TechDeutsch",
+                "id": "3179300667",
+                "name": "IT-News Deutschland",
+                "created_at": "2015-04-18T11:36:00.000Z",
                 "public_metrics": {
-                    "followers_count": 5537,
-                    "following_count": 5211,
-                    "tweet_count": 222202,
-                    "listed_count": 87
-                },
-                "id": "21302223"
+                    "followers_count": 211,
+                    "following_count": 12,
+                    "tweet_count": 58834,
+                    "listed_count": 30
+                }
             },
             {
-                "description": "Online Marketing  Affiliate-Marketing  ,2 Kinder verwitwet  seit dem  03.06.2016",
                 "verified": false,
-                "created_at": "2010-11-15T08:18:54.000Z",
-                "name": "Andrea     Nord",
-                "username": "Twity1403",
+                "description": "Runner and Blogger @ http://t.co/LdaWab75bG \nThis is your world. Shape it or someone else will.- Gary Lew",
+                "username": "Jeff1601",
+                "id": "24880238",
+                "name": "Jewgenij Leube",
+                "created_at": "2009-03-17T13:25:25.000Z",
                 "public_metrics": {
-                    "followers_count": 175,
-                    "following_count": 294,
-                    "tweet_count": 30514,
-                    "listed_count": 11
-                },
-                "id": "215915843"
-            },
-            {
-                "description": "Aktuelle Top-News zu Aktien auf https://t.co/LMOUJvy4Aq. Ausgesucht aus t\u00e4glich \u00fcber 11.000 Nachrichten aus dem Bereich B\u00f6rse und Finanzen. Teil von @wotwitt",
-                "verified": false,
-                "created_at": "2010-07-06T14:02:01.000Z",
-                "name": "FinanzNachrichten.de",
-                "username": "FN_Aktien",
-                "public_metrics": {
-                    "followers_count": 7391,
-                    "following_count": 4523,
-                    "tweet_count": 102328,
+                    "followers_count": 118,
+                    "following_count": 177,
+                    "tweet_count": 34045,
                     "listed_count": 146
-                },
-                "id": "163466981"
+                }
             },
             {
-                "description": "HCL/Lotus Notes, BlackBerry, Apple, Mobile Payment, Trains, e-208 | Speaks \ud83c\uddf3\ud83c\uddf1\ud83c\uddec\ud83c\udde7\ud83c\udde9\ud83c\uddea Learns \ud83c\uddf5\ud83c\uddf1 | ***** *** | Having fun at @GFI_KIAG & @cpmo_KIAG",
                 "verified": false,
-                "created_at": "2009-05-09T22:09:13.000Z",
-                "name": "Marc-Oliver Schaake \ud83d\ude84 \ud83c\uddea\ud83c\uddfa",
-                "username": "real_mos",
+                "description": "News \u00fcber Digitalisierung, E-Commerce, E-Mobility und selbstfahrende Autos, Festnetz/Mobile, Halbleiter und Social Media.\nhttps://t.co/AE5M9a3X5e",
+                "username": "IT_Times_de",
+                "id": "124205250",
+                "name": "IT-Times.de_IT News",
+                "created_at": "2010-03-18T16:14:50.000Z",
                 "public_metrics": {
-                    "followers_count": 2299,
-                    "following_count": 1605,
-                    "tweet_count": 98533,
-                    "listed_count": 82
-                },
-                "id": "38938615"
+                    "followers_count": 1440,
+                    "following_count": 88,
+                    "tweet_count": 85290,
+                    "listed_count": 331
+                }
             },
             {
+                "verified": false,
                 "description": "Personal Finance, policy and pop-punk \u2696\ufe0f Food, bants and mobile payments \ud83d\udc99 FIMDC (Fellow of the Institute of Meal Deal Connoisseurs) #yimby #NoPseudoscience",
-                "verified": false,
-                "created_at": "2015-01-18T12:41:32.000Z",
-                "name": "Max \ud83c\udf85",
                 "username": "MaxFassbrause",
+                "id": "2984008847",
+                "name": "Max \ud83c\udf85",
+                "created_at": "2015-01-18T12:41:32.000Z",
                 "public_metrics": {
-                    "followers_count": 1280,
-                    "following_count": 4383,
-                    "tweet_count": 116955,
+                    "followers_count": 1281,
+                    "following_count": 4410,
+                    "tweet_count": 117301,
                     "listed_count": 114
-                },
-                "id": "2984008847"
+                }
             },
             {
-                "description": "We offer an innovative, digital platform for cashless payments that can be customized to any industry.",
-                "verified": true,
-                "created_at": "2009-05-23T16:44:47.000Z",
-                "name": "Wirecard",
-                "username": "wirecard",
-                "public_metrics": {
-                    "followers_count": 119605,
-                    "following_count": 300,
-                    "tweet_count": 7551,
-                    "listed_count": 500
-                },
-                "id": "42056054"
-            },
-            {
-                "description": "",
                 "verified": false,
-                "created_at": "2011-03-02T13:54:25.000Z",
-                "name": "Aktien des Tages",
-                "username": "AktiendesTages",
+                "description": "Impressum: https://t.co/DOAdqJ8Vyp - Interviews + Berichte, Schwerpunkt deutscher Aktienmarkt - Hier zwitschern Michael Barck und unser Newsbot.",
+                "username": "4investors",
+                "id": "42907143",
+                "name": "4investors.de",
+                "created_at": "2009-05-27T15:37:38.000Z",
                 "public_metrics": {
-                    "followers_count": 250,
-                    "following_count": 0,
-                    "tweet_count": 127220,
-                    "listed_count": 22
-                },
-                "id": "259733922"
+                    "followers_count": 5025,
+                    "following_count": 405,
+                    "tweet_count": 75978,
+                    "listed_count": 110
+                }
             },
             {
-                "description": "Alle aktuellen News zu den 30 DAX-Aktien auf http://t.co/SCRrS2A1CK.",
                 "verified": false,
-                "created_at": "2010-07-06T17:32:32.000Z",
-                "name": "FinanzNachrichten.de",
-                "username": "FN_DAX_News",
+                "description": "Investor-SMS: Ihre starke Finanzwebseite f\u00fcr alle Marktnachrichten!\r\n\r\nF\u00fcr hochqualitative kostenlose B\u00f6rsenbriefe folgen Sie uns auch @ISMSBoerse",
+                "username": "InvestorSMS",
+                "id": "21302223",
+                "name": "Investor-SMS",
+                "created_at": "2009-02-19T14:30:01.000Z",
                 "public_metrics": {
-                    "followers_count": 3487,
-                    "following_count": 3079,
-                    "tweet_count": 145041,
-                    "listed_count": 67
-                },
-                "id": "163537654"
-            },
-            {
-                "description": "Rund um Finanzen, Finanzprodukte, Geldanlage, B\u00f6rse, Wirtschaft und Versicherungen.",
-                "verified": false,
-                "created_at": "2012-03-07T15:47:49.000Z",
-                "name": "Inffox.com",
-                "username": "Der_Finanzfuchs",
-                "public_metrics": {
-                    "followers_count": 4444,
-                    "following_count": 4447,
-                    "tweet_count": 199749,
-                    "listed_count": 85
-                },
-                "id": "517707729"
-            },
-            {
-                "description": "aLife",
-                "verified": false,
-                "created_at": "2008-04-11T15:29:03.000Z",
-                "name": "mb2day",
-                "username": "mb2day",
-                "public_metrics": {
-                    "followers_count": 176,
-                    "following_count": 178,
-                    "tweet_count": 17471,
-                    "listed_count": 29
-                },
-                "id": "14361682"
-            },
-            {
-                "description": "Oooh, hab kein Rendezvous -- Und keinen Masterplan -- Letzendlich z\u00e4hl\u2019n Kilometer -- (B. Buxbaum, Medizin)  https://t.co/HrYjRdj3xN - CC37 @ #LEL2017 (he/him)",
-                "verified": false,
-                "created_at": "2009-03-05T08:09:32.000Z",
-                "name": "Andreas Braukmann",
-                "username": "thinkslowly",
-                "public_metrics": {
-                    "followers_count": 680,
-                    "following_count": 1159,
-                    "tweet_count": 75971,
-                    "listed_count": 0
-                },
-                "id": "22896461"
-            },
-            {
-                "description": "",
-                "verified": false,
-                "created_at": "2014-09-13T18:47:27.000Z",
-                "name": "Yasin Berlin DE",
-                "username": "YasinBerlinDE",
-                "public_metrics": {
-                    "followers_count": 43,
-                    "following_count": 153,
-                    "tweet_count": 96909,
-                    "listed_count": 26
-                },
-                "id": "2807967368"
-            },
-            {
-                "description": "http://t.co/hObzPiV8xa bietet die wichtigsten Nachrichten aus Aktien, B\u00f6rse und Finanzen mit t\u00e4glich 11.000 Wirtschafts-News sowie Aktienkurse.",
-                "verified": false,
-                "created_at": "2010-07-06T17:35:02.000Z",
-                "name": "FinanzNachrichten.de",
-                "username": "FN_Nachrichten",
-                "public_metrics": {
-                    "followers_count": 5016,
-                    "following_count": 3238,
-                    "tweet_count": 247197,
-                    "listed_count": 128
-                },
-                "id": "163538505"
-            },
-            {
-                "description": "Aktienempfehlungen, Analysten-Ratings\r\n\u274b\u274b\u274b\u274b\u274b\u274b\u274b\u274b\u274b\u274bImpressum: http://t.co/57TEYA4rgB\r\n\u274b\u274b\u274b\u274b\u274b\u274b\u274b\u274b\u274b\u274b\u274b\u274b\r\nWebseite:",
-                "verified": false,
-                "created_at": "2013-03-22T20:11:55.000Z",
-                "name": "FinanzLinksRatings",
-                "username": "Ratings_via_FL",
-                "public_metrics": {
-                    "followers_count": 498,
-                    "following_count": 8,
-                    "tweet_count": 645645,
-                    "listed_count": 41
-                },
-                "id": "1289565265"
-            },
-            {
-                "description": "Fundamentalanalyse - Technische Analyse - Behavioral Finance",
-                "verified": false,
-                "created_at": "2009-06-03T20:51:36.000Z",
-                "name": "Aktienmanufaktur",
-                "username": "Aktienexperte",
-                "public_metrics": {
-                    "followers_count": 1246,
-                    "following_count": 358,
-                    "tweet_count": 1047107,
-                    "listed_count": 265
-                },
-                "id": "44454057"
-            },
-            {
-                "description": "+++ Der B\u00f6rseninformationsdienst +++",
-                "verified": false,
-                "created_at": "2010-09-20T10:54:47.000Z",
-                "name": "instock.de",
-                "username": "instock_de",
-                "public_metrics": {
-                    "followers_count": 177,
-                    "following_count": 73,
-                    "tweet_count": 34879,
-                    "listed_count": 93
-                },
-                "id": "192862223"
-            },
-            {
-                "description": "Finde hier die besten Dividenden Aktien -- https://t.co/qzVu9qvTvR",
-                "verified": false,
-                "created_at": "2011-06-12T16:14:46.000Z",
-                "name": "AktienKost.de",
-                "username": "AktienKost",
-                "public_metrics": {
-                    "followers_count": 1323,
-                    "following_count": 113,
-                    "tweet_count": 26875,
-                    "listed_count": 34
-                },
-                "id": "315887594"
-            }
-        ],
-        "places": [
-            {
-                "full_name": "K\u00f6ln, Deutschland",
-                "id": "8abc99434d4f5d28"
+                    "followers_count": 5535,
+                    "following_count": 5212,
+                    "tweet_count": 222364,
+                    "listed_count": 87
+                }
             }
         ]
     },
     "meta": {
-        "newest_id": "726177213763166208",
-        "oldest_id": "725595447985864705",
-        "result_count": 50,
-        "next_token": "1jzu9lk96gu5npw2xtnv9qmny3ogd0mz7yj7ti708x31"
+        "newest_id": "715319924462370817",
+        "oldest_id": "715184771484229632",
+        "result_count": 10,
+        "next_token": "1jzu9lk96gu5npw2xqo35686h2ii26dzvfcgtfg78xh9"
     }
 }

@@ -33,6 +33,8 @@ def create_headers(bearer_token):
 
 #Creates URL for the request
 def create_url(keyword, start_date, end_date, max_results = 10):
+    logger.info("Start with create_url()")
+
     #URL might get changed : https://developer.twitter.com/en/docs/twitter-api/early-access
     search_url = "https://api.twitter.com/2/tweets/search/all" 
     logger.info("Search URL: {url}".format(url = search_url))
@@ -52,6 +54,8 @@ def create_url(keyword, start_date, end_date, max_results = 10):
 
 #Bring it all together for the request.
 def connect_to_endpoint(url, headers, params, next_token = None):
+    logger.info("Start with connect_to_endpoint()")
+
     params['next_token'] = next_token #params object received from create_url function.
     response = requests.request("GET", url, headers = headers, params = params)
     print("Endpoint Respnse Code: " + str(response.status_code))
@@ -78,7 +82,7 @@ def connect_to_endpoint(url, headers, params, next_token = None):
 def get_star_end_list(year = 2016, month = 2, test = False):
     if test:
         runs_year = 1
-        runs_month = 3
+        runs_month = 2
     else:
         runs_year = 5
         runs_month = 12
@@ -106,15 +110,57 @@ def get_star_end_list(year = 2016, month = 2, test = False):
                 break
         year += 1
     logger.info("Start_List: {start_list} \n\tEnd_List: {end_list}".format(start_list = start_list, end_list = end_list))
+#Create initial Json File structure
+json_file = {'data':[], 'includes':{'users':[], 'places':[]}, 'meta':{'newest_id':[], 'oldest_id':[], 'result_count':[], 'next_token':[]}}
+current_year = 0
 
-def create_json(json_response):
-    json_data = json_response['data']
-    json_includes = json_response['includes']
-    json_meta = json_response['meta']
 
-def write_to_json(json_response):
-    with open('data.json', 'w') as f:  
-        json.dump(json_response, f)
+#Writes information to JSON File
+def write_to_json(json_response, start):
+    global current_year
+    global keyword
+
+    #Checks if I have to start a new JSON file
+    #JSON file for each year. 
+    if current_year != start[0:4]:
+        global json_file
+        json_file = {'data':[], 'includes':{'users':[], 'places':[]}, 'meta':{'newest_id':[], 'oldest_id':[], 'result_count':[], 'next_token':[]}}
+        current_year = start[0:4]
+        print(current_year)
+    json_filename = "{year}_{keyword}_data.json".format(year = start[0:4], keyword = keyword.split()[0])
+
+    #Opens the JSON file to write
+    with open(json_filename, mode = 'w') as f:
+        #Checks for the required information inth response and writes the data to the JSON file 
+        if 'data' in json_response:
+            for each_data in range(0,len(json_response['data'])):
+                json_file['data'].append(json_response['data'][each_data])
+
+        if 'includes' in json_response:
+            if 'users' in json_response['includes']:
+                for each_users in range(0,len(json_response['includes']['users'])):
+                    json_file['includes']['users'].append(json_response['includes']['users'][each_users])
+
+            if 'places' in json_response['includes']:
+                for each_places in range(0,len(json_response['includes']['places'])):
+                    json_file['includes']['places'].append(json_response['includes']['places'][each_places])
+
+        if 'meta' in json_response:
+            if 'newest_id' in json_response['meta']:
+                json_file['meta']['newest_id'].append(json_response['meta']['newest_id'])
+            if 'oldest_id' in json_response['meta']:    
+                json_file['meta']['oldest_id'].append(json_response['meta']['oldest_id'])
+            if 'result_count' in json_response['meta']:
+                json_file['meta']['result_count'].append(json_response['meta']['result_count'])
+            if 'next_token' in json_response['meta']:
+                json_file['meta']['next_token'].append(json_response['meta']['next_token'])
+
+        #Save the data to the JSON file
+        json.dump(json_file, f)
+
+# def write_to_json(json_response,start):
+#     with open('data.json', 'w') as f:  
+#         json.dump(json_response, f)
 
 #Create a custom CSV file
 def create_custom_CSV():
@@ -164,61 +210,78 @@ def append_to_csv(json_response, filename):
 
 #Execute the request
 def execute_twitter_request(total_tweets):
+    logger.info("For Loop starts for {length} runs.".format(length = len(start_list)))
     for i in range(0,len(start_list)):
+        logger.info("For Loop run: {runs}".format(runs = i))
+
+        #Creat JSON File Name
+        #json_filename = start_list[i],'_data.json'
 
         #Inputs
         count = 0 #Counting number of tweets
-        max_count = 10 #Max tweets per time periode
+        max_count = 90000 #Max tweets per time periode
         flag = True
         next_token = None
 
         while flag:
+            logger.info("Start with WHILE loop.")
+
             if count >= max_count:
                 logger.info("Max Count is reached")
                 break
             print("-----------\n {next_token}".format(next_token = next_token))
-            logger.info("Next Token: {next_token}".format(next_token = next_token))
+            logger.info("Start Token: {next_token}".format(next_token = next_token))
             url = create_url(keyword, start_list[i], end_list[i], max_results)
-            json_response = connect_to_endpoint(url[0], headers, url[1])
+            json_response = connect_to_endpoint(url[0], headers, url[1], next_token)
 
             result_count = json_response['meta']['result_count']
 
             #Check for a new token
             if 'next_token' in json_response['meta']:
                 #Save token for later
+                logger.info("if condition: next_token is in json_response")
                 next_token = json_response['meta']['next_token']
                 print("Next Token: ", next_token)
                 logger.info("Next Token: {next_token}".format(next_token = next_token))
                 
                 if result_count is not None and result_count > 0 and next_token is not None:
+                    logger.info("if condition: result_count is not None and result_count > 0 and next_token is not None")
                     print("Start Date: ", start_list[i])
+                    logger.info("-------------------")
                     logger.info("Start with : {start_date}".format(start_date = start_list[i]))
-                    write_to_json(json_response)
+                    write_to_json(json_response, start_list[i])
                     append_to_csv(json_response, "data.csv")
                     count += result_count
                     total_tweets += result_count
                     print("Total # of Tweets added: ", total_tweets)
                     logger.info("Number of tweets: {tweets}".format(tweets = total_tweets))
+                    logger.info("-------------------")
                     print("-------------------")
                     time.sleep(5)                
-                 # If no next token exists
-                else:
-                    if result_count is not None and result_count > 0:
-                        print("-------------------")
-                        print("Start Date: ", start_list[i])
-                        logger.info("Start with : {start_date}".format(start_date = start_list[i]))
-                        append_to_csv(json_response, "data.csv")
-                        count += result_count
-                        total_tweets += result_count
-                        print("Total # of Tweets added: ", total_tweets)
-                        logger.info("Number of tweets: {tweets}".format(tweets = total_tweets))
-                        print("-------------------")
-                        time.sleep(5)
+             # If no next token exists
+            else:
+                logger.info("else condition: next_token is in json_response")
+                if result_count is not None and result_count > 0:
+                    logger.info("result_count is not None and result_count > 0")
+                    print("-------------------")
+                    print("Start Date: ", start_list[i])
+                    logger.info("-------------------")
+                    logger.info("Start with : {start_date}".format(start_date = start_list[i]))
+                    append_to_csv(json_response, "data.csv")
+                    write_to_json(json_response, start_list[i])
+                    count += result_count
+                    total_tweets += result_count
+                    print("Total # of Tweets added: ", total_tweets)
+                    logger.info("Number of tweets: {tweets}".format(tweets = total_tweets))
+                    logger.info("-------------------")
+                    print("-------------------")
+                    time.sleep(5)
                     
-                    #If this is the last request: flag to false
-                    flag = False
-                    next_token = None
-                time.sleep(5)
+                #If this is the last request: flag to false
+                logger.info("Set flag to False and next_token to None")
+                flag = False
+                next_token = None
+            time.sleep(5)
     print("Total number of results: ", total_tweets)
 
 #Funktion to run the hole script
@@ -236,15 +299,16 @@ keyword = "wirecard lang:de"
 start_list = []
 end_list = []
 
-max_results = 50
+max_results = 500
 
 total_tweets = 0
 
 
 #Take Action
-run_script(True)
+#run_script(True)
+run_script()
 
-#Further To-Dos
-#Write more json files to get all the information / write information into a list and write one json for each month/ hole time
-#Which Keywords are important
-#Do I have all required information in the CSV? 
+# Further To-Dos
+# Which Keywords are important
+# Do I have all required information in the CSV? 
+# I do not give the next token to the new query. Why? 
