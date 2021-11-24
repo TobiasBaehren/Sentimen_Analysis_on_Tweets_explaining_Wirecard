@@ -178,7 +178,7 @@ def append_to_csv(json_response, filename):
 
     #Open file
     csvFile = open(filename, "a", newline="",encoding='utf-8')
-    csvWriter = csv.writer(csvFile)
+    csvWriter = csv.writer(csvFile, delimiter=';')
 
     #Loop through each tweet
     for tweet in json_response['data']:
