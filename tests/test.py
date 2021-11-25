@@ -34,7 +34,10 @@ def write_infos(filename):
     for i in range(10): 
 
         a = "a", i
-        b = "b", i
+        if i == 2:
+            b = "b", None
+        else:
+            b = "b", i
 
         res = [a, b]
         
@@ -191,3 +194,15 @@ print(timestamp[0][0:4],"test")
 keyword = "wirecard lang:en"
 x = keyword.split()
 print(keyword.split()[0])
+
+
+test_a = ['a', 'b']
+new_output = []
+if False:
+    for each in range(0, len(test_a)):
+        test_combination = test_a[each], each
+        new_output.append(test_combination)
+else:
+    new_output.append(None)
+
+print(new_output)
