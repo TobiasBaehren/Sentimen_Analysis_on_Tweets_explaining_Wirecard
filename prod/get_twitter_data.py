@@ -341,12 +341,12 @@ def run_script(test = False):
     create_custom_CSV()
     get_star_end_list(test=test)
     print(start_list)
-    execute_twitter_request(total_tweets)
+    execute_twitter_request(total_tweets) 
 
 #Inputs for the Request
 bearer_token = auth()
 headers = create_headers(bearer_token)
-keyword = "wirecard lang:de"
+keyword = "wirecard lang:en"
 
 start_list = []
 end_list = []
@@ -362,4 +362,6 @@ run_script()
 
 # Further To-Dos
 # Which Keywords are important
-# Do I have all required information in the CSV? 
+
+#Keywords I have used: 
+#   wirecards lang:de
