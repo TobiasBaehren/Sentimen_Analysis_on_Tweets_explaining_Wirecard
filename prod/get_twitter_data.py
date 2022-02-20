@@ -67,6 +67,7 @@ def connect_to_endpoint(url, headers, params, next_token = None):
             print("Tries: ", connection_counter, "Sleep 30 seconds...")
             time.sleep(30)
             response = requests.request("GET", url, headers = headers, params = params)
+            connection_counter += 1
         else:
             logger.error("Error message: {status_code}; {text}".format(status_code = response.status_code, text = response.text))
             raise Exception(response.status_code, response.text)
@@ -81,6 +82,8 @@ def connect_to_endpoint(url, headers, params, next_token = None):
 #Get Start and End list
 def get_star_end_list(year = 2016, month = 2, test = False):
     if test:
+        year = 2020
+        month = 4
         runs_year = 1
         runs_month = 2
     else:
@@ -127,7 +130,8 @@ def write_to_json(json_response, start):
         json_file = {'data':[], 'includes':{'users':[], 'places':[]}, 'meta':{'newest_id':[], 'oldest_id':[], 'result_count':[], 'next_token':[]}}
         current_year = start[0:4]
         print(current_year)
-    json_filename = "{year}_{keyword}_data.json".format(year = start[0:4], keyword = keyword.split()[0])
+    #json_filename = "{year}_{keyword}_data.json".format(year = start[0:4], keyword = keyword.split()[0])
+    json_filename = "{year}_data.json".format(year = start[0:4])
 
     #Opens the JSON file to write
     with open(json_filename, mode = 'w') as f:
@@ -346,7 +350,19 @@ def run_script(test = False):
 #Inputs for the Request
 bearer_token = auth()
 headers = create_headers(bearer_token)
-keyword = "wirecard lang:en"
+keyword = '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de'
+
+#The following keyword query is not used because all further keywords are implemented in the first search for wirecard.
+#No further informtaion will be genereated. Furhtermore, I cannot look for just a keyword like "BaFin" because they handle to many different tasks, like Bitcoin in 2018.
+
+# keyword = ('((MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") OR '
+# '((EY OR "Ernst&Young" OR "Ernst & Young" OR '
+# 'BAFIN OR BundesanstaltfürFinanzdienstleistungsaufsicht OR BundesanstaltfuerFinanzdienstleistungsaufsicht OR "Bundesanstalt für Finanzdienstleistungsaufsicht" OR "Bundesanstalt fuer Finanzdienstleistungsaufsicht" OR '
+# 'FIU OR "Zentralstelle für Finanztransaktionsuntersuchungen" OR "Zentralstelle fuer Finanztransaktionsuntersuchungen" OR ZentralstellefürFinanztransaktionsuntersuchungen OR ZentralstellefuerFinanztransaktionsuntersuchungen OR '
+# 'DPR OR DeutschePrüfstellefürRechnungslegung OR DeutschePruefstellefuerRechnungslegung OR "Deutsche Prüfstelle für Rechnungslegung" OR "Deutsche Pruefstelle fuer Rechnungslegung" OR '
+# 'APAS OR Abschlussprüferaufsichtskommission OR Abschlussprueferaufsichtskommission OR AuditorOversightCommission OR "Auditor Oversight Commission" OR'
+# 'KPMG) '
+# 'Wirecard)) lang:de')
 
 start_list = []
 end_list = []
@@ -364,4 +380,5 @@ run_script()
 # Which Keywords are important
 
 #Keywords I have used: 
-#   wirecards lang:de
+#   wirecard lang:de
+#   wirecard lang:en
