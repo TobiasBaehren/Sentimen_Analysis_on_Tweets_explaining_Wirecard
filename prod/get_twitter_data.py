@@ -1,3 +1,4 @@
+from cgi import test
 import requests
 import os
 import json
@@ -350,7 +351,7 @@ def run_script(test = False):
 #Inputs for the Request
 bearer_token = auth()
 headers = create_headers(bearer_token)
-keyword = '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de'
+keyword = '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:en'
 
 #The following keyword query is not used because all further keywords are implemented in the first search for wirecard.
 #No further informtaion will be genereated. Furhtermore, I cannot look for just a keyword like "BaFin" because they handle to many different tasks, like Bitcoin in 2018.
@@ -382,3 +383,4 @@ run_script()
 #Keywords I have used: 
 #   wirecard lang:de
 #   wirecard lang:en
+#   (MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de

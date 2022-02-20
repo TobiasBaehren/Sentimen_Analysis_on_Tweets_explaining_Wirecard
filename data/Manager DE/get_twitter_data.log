@@ -1,0 +1,1288 @@
+02/20/2022 07:19:18 PM Got BEARER TOKEN
+02/20/2022 07:19:18 PM Headers are created
+02/20/2022 07:19:18 PM Start_List: ['2016-2-01T00:00:00.000Z', '2016-3-01T00:00:00.000Z', '2016-4-01T00:00:00.000Z', '2016-5-01T00:00:00.000Z', '2016-6-01T00:00:00.000Z', '2016-7-01T00:00:00.000Z', '2016-8-01T00:00:00.000Z', '2016-9-01T00:00:00.000Z', '2016-10-01T00:00:00.000Z', '2016-11-01T00:00:00.000Z', '2016-12-01T00:00:00.000Z', '2017-1-01T00:00:00.000Z', '2017-2-01T00:00:00.000Z', '2017-3-01T00:00:00.000Z', '2017-4-01T00:00:00.000Z', '2017-5-01T00:00:00.000Z', '2017-6-01T00:00:00.000Z', '2017-7-01T00:00:00.000Z', '2017-8-01T00:00:00.000Z', '2017-9-01T00:00:00.000Z', '2017-10-01T00:00:00.000Z', '2017-11-01T00:00:00.000Z', '2017-12-01T00:00:00.000Z', '2018-1-01T00:00:00.000Z', '2018-2-01T00:00:00.000Z', '2018-3-01T00:00:00.000Z', '2018-4-01T00:00:00.000Z', '2018-5-01T00:00:00.000Z', '2018-6-01T00:00:00.000Z', '2018-7-01T00:00:00.000Z', '2018-8-01T00:00:00.000Z', '2018-9-01T00:00:00.000Z', '2018-10-01T00:00:00.000Z', '2018-11-01T00:00:00.000Z', '2018-12-01T00:00:00.000Z', '2019-1-01T00:00:00.000Z', '2019-2-01T00:00:00.000Z', '2019-3-01T00:00:00.000Z', '2019-4-01T00:00:00.000Z', '2019-5-01T00:00:00.000Z', '2019-6-01T00:00:00.000Z', '2019-7-01T00:00:00.000Z', '2019-8-01T00:00:00.000Z', '2019-9-01T00:00:00.000Z', '2019-10-01T00:00:00.000Z', '2019-11-01T00:00:00.000Z', '2019-12-01T00:00:00.000Z', '2020-1-01T00:00:00.000Z', '2020-2-01T00:00:00.000Z', '2020-3-01T00:00:00.000Z', '2020-4-01T00:00:00.000Z', '2020-5-01T00:00:00.000Z', '2020-6-01T00:00:00.000Z', '2020-7-01T00:00:00.000Z'] 
+	End_List: ['2016-2-29T00:00:00.000Z', '2016-3-31T00:00:00.000Z', '2016-4-30T00:00:00.000Z', '2016-5-31T00:00:00.000Z', '2016-6-30T00:00:00.000Z', '2016-7-31T00:00:00.000Z', '2016-8-31T00:00:00.000Z', '2016-9-30T00:00:00.000Z', '2016-10-31T00:00:00.000Z', '2016-11-30T00:00:00.000Z', '2016-12-31T00:00:00.000Z', '2017-1-31T00:00:00.000Z', '2017-2-28T00:00:00.000Z', '2017-3-31T00:00:00.000Z', '2017-4-30T00:00:00.000Z', '2017-5-31T00:00:00.000Z', '2017-6-30T00:00:00.000Z', '2017-7-31T00:00:00.000Z', '2017-8-31T00:00:00.000Z', '2017-9-30T00:00:00.000Z', '2017-10-31T00:00:00.000Z', '2017-11-30T00:00:00.000Z', '2017-12-31T00:00:00.000Z', '2018-1-31T00:00:00.000Z', '2018-2-28T00:00:00.000Z', '2018-3-31T00:00:00.000Z', '2018-4-30T00:00:00.000Z', '2018-5-31T00:00:00.000Z', '2018-6-30T00:00:00.000Z', '2018-7-31T00:00:00.000Z', '2018-8-31T00:00:00.000Z', '2018-9-30T00:00:00.000Z', '2018-10-31T00:00:00.000Z', '2018-11-30T00:00:00.000Z', '2018-12-31T00:00:00.000Z', '2019-1-31T00:00:00.000Z', '2019-2-28T00:00:00.000Z', '2019-3-31T00:00:00.000Z', '2019-4-30T00:00:00.000Z', '2019-5-31T00:00:00.000Z', '2019-6-30T00:00:00.000Z', '2019-7-31T00:00:00.000Z', '2019-8-31T00:00:00.000Z', '2019-9-30T00:00:00.000Z', '2019-10-31T00:00:00.000Z', '2019-11-30T00:00:00.000Z', '2019-12-31T00:00:00.000Z', '2020-1-31T00:00:00.000Z', '2020-2-29T00:00:00.000Z', '2020-3-31T00:00:00.000Z', '2020-4-30T00:00:00.000Z', '2020-5-31T00:00:00.000Z', '2020-6-30T00:00:00.000Z', '2020-7-31T00:00:00.000Z']
+02/20/2022 07:19:18 PM For Loop starts for 54 runs.
+02/20/2022 07:19:18 PM For Loop run: 0
+02/20/2022 07:19:18 PM Start with WHILE loop.
+02/20/2022 07:19:18 PM Start Token: None
+02/20/2022 07:19:18 PM Start with create_url()
+02/20/2022 07:19:18 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:19:18 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-2-01T00:00:00.000Z', 'end_time': '2016-2-29T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:19:18 PM Start with connect_to_endpoint()
+02/20/2022 07:19:18 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:19:19 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-2-01T00%3A00%3A00.000Z&end_time=2016-2-29T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 2381
+02/20/2022 07:19:19 PM else condition: next_token is in json_response
+02/20/2022 07:19:19 PM result_count is not None and result_count > 0
+02/20/2022 07:19:19 PM -------------------
+02/20/2022 07:19:19 PM Start with : 2016-2-01T00:00:00.000Z
+02/20/2022 07:19:19 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:19:19 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:19:19 PM Number of tweets: 11
+02/20/2022 07:19:19 PM -------------------
+02/20/2022 07:19:24 PM Set flag to False and next_token to None
+02/20/2022 07:19:29 PM For Loop run: 1
+02/20/2022 07:19:29 PM Start with WHILE loop.
+02/20/2022 07:19:29 PM Start Token: None
+02/20/2022 07:19:29 PM Start with create_url()
+02/20/2022 07:19:29 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:19:29 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-3-01T00:00:00.000Z', 'end_time': '2016-3-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:19:29 PM Start with connect_to_endpoint()
+02/20/2022 07:19:29 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:19:29 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-3-01T00%3A00%3A00.000Z&end_time=2016-3-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 1213
+02/20/2022 07:19:29 PM else condition: next_token is in json_response
+02/20/2022 07:19:29 PM result_count is not None and result_count > 0
+02/20/2022 07:19:29 PM -------------------
+02/20/2022 07:19:29 PM Start with : 2016-3-01T00:00:00.000Z
+02/20/2022 07:19:29 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:19:29 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:19:29 PM Number of tweets: 14
+02/20/2022 07:19:29 PM -------------------
+02/20/2022 07:19:34 PM Set flag to False and next_token to None
+02/20/2022 07:19:39 PM For Loop run: 2
+02/20/2022 07:19:39 PM Start with WHILE loop.
+02/20/2022 07:19:39 PM Start Token: None
+02/20/2022 07:19:39 PM Start with create_url()
+02/20/2022 07:19:39 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:19:39 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-4-01T00:00:00.000Z', 'end_time': '2016-4-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:19:39 PM Start with connect_to_endpoint()
+02/20/2022 07:19:39 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:19:40 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-4-01T00%3A00%3A00.000Z&end_time=2016-4-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 1189
+02/20/2022 07:19:40 PM else condition: next_token is in json_response
+02/20/2022 07:19:40 PM result_count is not None and result_count > 0
+02/20/2022 07:19:40 PM -------------------
+02/20/2022 07:19:40 PM Start with : 2016-4-01T00:00:00.000Z
+02/20/2022 07:19:40 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:19:40 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:19:40 PM Number of tweets: 18
+02/20/2022 07:19:40 PM -------------------
+02/20/2022 07:19:45 PM Set flag to False and next_token to None
+02/20/2022 07:19:50 PM For Loop run: 3
+02/20/2022 07:19:50 PM Start with WHILE loop.
+02/20/2022 07:19:50 PM Start Token: None
+02/20/2022 07:19:50 PM Start with create_url()
+02/20/2022 07:19:50 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:19:50 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-5-01T00:00:00.000Z', 'end_time': '2016-5-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:19:50 PM Start with connect_to_endpoint()
+02/20/2022 07:19:50 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:19:50 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-5-01T00%3A00%3A00.000Z&end_time=2016-5-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 884
+02/20/2022 07:19:50 PM else condition: next_token is in json_response
+02/20/2022 07:19:50 PM result_count is not None and result_count > 0
+02/20/2022 07:19:50 PM -------------------
+02/20/2022 07:19:50 PM Start with : 2016-5-01T00:00:00.000Z
+02/20/2022 07:19:50 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:19:50 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:19:50 PM Number of tweets: 21
+02/20/2022 07:19:50 PM -------------------
+02/20/2022 07:19:55 PM Set flag to False and next_token to None
+02/20/2022 07:20:00 PM For Loop run: 4
+02/20/2022 07:20:00 PM Start with WHILE loop.
+02/20/2022 07:20:00 PM Start Token: None
+02/20/2022 07:20:00 PM Start with create_url()
+02/20/2022 07:20:00 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:20:00 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-6-01T00:00:00.000Z', 'end_time': '2016-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:20:00 PM Start with connect_to_endpoint()
+02/20/2022 07:20:00 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:20:01 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-6-01T00%3A00%3A00.000Z&end_time=2016-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 601
+02/20/2022 07:20:01 PM else condition: next_token is in json_response
+02/20/2022 07:20:01 PM result_count is not None and result_count > 0
+02/20/2022 07:20:01 PM -------------------
+02/20/2022 07:20:01 PM Start with : 2016-6-01T00:00:00.000Z
+02/20/2022 07:20:01 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:20:01 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:20:01 PM Number of tweets: 22
+02/20/2022 07:20:01 PM -------------------
+02/20/2022 07:20:06 PM Set flag to False and next_token to None
+02/20/2022 07:20:11 PM For Loop run: 5
+02/20/2022 07:20:11 PM Start with WHILE loop.
+02/20/2022 07:20:11 PM Start Token: None
+02/20/2022 07:20:11 PM Start with create_url()
+02/20/2022 07:20:11 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:20:11 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-7-01T00:00:00.000Z', 'end_time': '2016-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:20:11 PM Start with connect_to_endpoint()
+02/20/2022 07:20:11 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:20:11 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-7-01T00%3A00%3A00.000Z&end_time=2016-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 53
+02/20/2022 07:20:11 PM else condition: next_token is in json_response
+02/20/2022 07:20:11 PM Set flag to False and next_token to None
+02/20/2022 07:20:16 PM For Loop run: 6
+02/20/2022 07:20:16 PM Start with WHILE loop.
+02/20/2022 07:20:16 PM Start Token: None
+02/20/2022 07:20:16 PM Start with create_url()
+02/20/2022 07:20:16 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:20:16 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-8-01T00:00:00.000Z', 'end_time': '2016-8-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:20:16 PM Start with connect_to_endpoint()
+02/20/2022 07:20:16 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:20:16 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-8-01T00%3A00%3A00.000Z&end_time=2016-8-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 509
+02/20/2022 07:20:16 PM else condition: next_token is in json_response
+02/20/2022 07:20:16 PM result_count is not None and result_count > 0
+02/20/2022 07:20:16 PM -------------------
+02/20/2022 07:20:16 PM Start with : 2016-8-01T00:00:00.000Z
+02/20/2022 07:20:16 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:20:16 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:20:16 PM Number of tweets: 23
+02/20/2022 07:20:16 PM -------------------
+02/20/2022 07:20:21 PM Set flag to False and next_token to None
+02/20/2022 07:20:26 PM For Loop run: 7
+02/20/2022 07:20:26 PM Start with WHILE loop.
+02/20/2022 07:20:26 PM Start Token: None
+02/20/2022 07:20:26 PM Start with create_url()
+02/20/2022 07:20:26 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:20:26 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-9-01T00:00:00.000Z', 'end_time': '2016-9-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:20:26 PM Start with connect_to_endpoint()
+02/20/2022 07:20:26 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:20:26 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-9-01T00%3A00%3A00.000Z&end_time=2016-9-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 53
+02/20/2022 07:20:26 PM else condition: next_token is in json_response
+02/20/2022 07:20:26 PM Set flag to False and next_token to None
+02/20/2022 07:20:31 PM For Loop run: 8
+02/20/2022 07:20:31 PM Start with WHILE loop.
+02/20/2022 07:20:31 PM Start Token: None
+02/20/2022 07:20:31 PM Start with create_url()
+02/20/2022 07:20:31 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:20:31 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-10-01T00:00:00.000Z', 'end_time': '2016-10-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:20:31 PM Start with connect_to_endpoint()
+02/20/2022 07:20:31 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:20:32 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-10-01T00%3A00%3A00.000Z&end_time=2016-10-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 768
+02/20/2022 07:20:32 PM else condition: next_token is in json_response
+02/20/2022 07:20:32 PM result_count is not None and result_count > 0
+02/20/2022 07:20:32 PM -------------------
+02/20/2022 07:20:32 PM Start with : 2016-10-01T00:00:00.000Z
+02/20/2022 07:20:32 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:20:32 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:20:32 PM Number of tweets: 24
+02/20/2022 07:20:32 PM -------------------
+02/20/2022 07:20:37 PM Set flag to False and next_token to None
+02/20/2022 07:20:42 PM For Loop run: 9
+02/20/2022 07:20:42 PM Start with WHILE loop.
+02/20/2022 07:20:42 PM Start Token: None
+02/20/2022 07:20:42 PM Start with create_url()
+02/20/2022 07:20:42 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:20:42 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-11-01T00:00:00.000Z', 'end_time': '2016-11-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:20:42 PM Start with connect_to_endpoint()
+02/20/2022 07:20:42 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:20:42 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-11-01T00%3A00%3A00.000Z&end_time=2016-11-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 1332
+02/20/2022 07:20:42 PM else condition: next_token is in json_response
+02/20/2022 07:20:42 PM result_count is not None and result_count > 0
+02/20/2022 07:20:42 PM -------------------
+02/20/2022 07:20:42 PM Start with : 2016-11-01T00:00:00.000Z
+02/20/2022 07:20:42 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:20:42 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:20:42 PM Number of tweets: 28
+02/20/2022 07:20:42 PM -------------------
+02/20/2022 07:20:47 PM Set flag to False and next_token to None
+02/20/2022 07:20:52 PM For Loop run: 10
+02/20/2022 07:20:52 PM Start with WHILE loop.
+02/20/2022 07:20:52 PM Start Token: None
+02/20/2022 07:20:52 PM Start with create_url()
+02/20/2022 07:20:52 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:20:52 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2016-12-01T00:00:00.000Z', 'end_time': '2016-12-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:20:52 PM Start with connect_to_endpoint()
+02/20/2022 07:20:52 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:20:52 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2016-12-01T00%3A00%3A00.000Z&end_time=2016-12-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 53
+02/20/2022 07:20:52 PM else condition: next_token is in json_response
+02/20/2022 07:20:52 PM Set flag to False and next_token to None
+02/20/2022 07:20:57 PM For Loop run: 11
+02/20/2022 07:20:57 PM Start with WHILE loop.
+02/20/2022 07:20:57 PM Start Token: None
+02/20/2022 07:20:57 PM Start with create_url()
+02/20/2022 07:20:57 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:20:57 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-1-01T00:00:00.000Z', 'end_time': '2017-1-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:20:57 PM Start with connect_to_endpoint()
+02/20/2022 07:20:57 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:20:58 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-1-01T00%3A00%3A00.000Z&end_time=2017-1-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 53
+02/20/2022 07:20:58 PM else condition: next_token is in json_response
+02/20/2022 07:20:58 PM Set flag to False and next_token to None
+02/20/2022 07:21:03 PM For Loop run: 12
+02/20/2022 07:21:03 PM Start with WHILE loop.
+02/20/2022 07:21:03 PM Start Token: None
+02/20/2022 07:21:03 PM Start with create_url()
+02/20/2022 07:21:03 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:21:03 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-2-01T00:00:00.000Z', 'end_time': '2017-2-28T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:21:03 PM Start with connect_to_endpoint()
+02/20/2022 07:21:03 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:21:03 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-2-01T00%3A00%3A00.000Z&end_time=2017-2-28T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 53
+02/20/2022 07:21:03 PM else condition: next_token is in json_response
+02/20/2022 07:21:03 PM Set flag to False and next_token to None
+02/20/2022 07:21:08 PM For Loop run: 13
+02/20/2022 07:21:08 PM Start with WHILE loop.
+02/20/2022 07:21:08 PM Start Token: None
+02/20/2022 07:21:08 PM Start with create_url()
+02/20/2022 07:21:08 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:21:08 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-3-01T00:00:00.000Z', 'end_time': '2017-3-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:21:08 PM Start with connect_to_endpoint()
+02/20/2022 07:21:08 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:21:08 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-3-01T00%3A00%3A00.000Z&end_time=2017-3-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 53
+02/20/2022 07:21:08 PM else condition: next_token is in json_response
+02/20/2022 07:21:08 PM Set flag to False and next_token to None
+02/20/2022 07:21:13 PM For Loop run: 14
+02/20/2022 07:21:13 PM Start with WHILE loop.
+02/20/2022 07:21:13 PM Start Token: None
+02/20/2022 07:21:13 PM Start with create_url()
+02/20/2022 07:21:13 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:21:13 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-4-01T00:00:00.000Z', 'end_time': '2017-4-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:21:13 PM Start with connect_to_endpoint()
+02/20/2022 07:21:13 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:21:14 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-4-01T00%3A00%3A00.000Z&end_time=2017-4-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 53
+02/20/2022 07:21:14 PM else condition: next_token is in json_response
+02/20/2022 07:21:14 PM Set flag to False and next_token to None
+02/20/2022 07:21:19 PM For Loop run: 15
+02/20/2022 07:21:19 PM Start with WHILE loop.
+02/20/2022 07:21:19 PM Start Token: None
+02/20/2022 07:21:19 PM Start with create_url()
+02/20/2022 07:21:19 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:21:19 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-5-01T00:00:00.000Z', 'end_time': '2017-5-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:21:19 PM Start with connect_to_endpoint()
+02/20/2022 07:21:19 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:21:19 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-5-01T00%3A00%3A00.000Z&end_time=2017-5-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 460
+02/20/2022 07:21:19 PM else condition: next_token is in json_response
+02/20/2022 07:21:19 PM result_count is not None and result_count > 0
+02/20/2022 07:21:19 PM -------------------
+02/20/2022 07:21:19 PM Start with : 2017-5-01T00:00:00.000Z
+02/20/2022 07:21:19 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:21:19 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:21:19 PM Number of tweets: 29
+02/20/2022 07:21:19 PM -------------------
+02/20/2022 07:21:24 PM Set flag to False and next_token to None
+02/20/2022 07:21:29 PM For Loop run: 16
+02/20/2022 07:21:29 PM Start with WHILE loop.
+02/20/2022 07:21:29 PM Start Token: None
+02/20/2022 07:21:29 PM Start with create_url()
+02/20/2022 07:21:29 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:21:29 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-6-01T00:00:00.000Z', 'end_time': '2017-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:21:29 PM Start with connect_to_endpoint()
+02/20/2022 07:21:29 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:21:29 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-6-01T00%3A00%3A00.000Z&end_time=2017-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 53
+02/20/2022 07:21:29 PM else condition: next_token is in json_response
+02/20/2022 07:21:29 PM Set flag to False and next_token to None
+02/20/2022 07:21:34 PM For Loop run: 17
+02/20/2022 07:21:34 PM Start with WHILE loop.
+02/20/2022 07:21:34 PM Start Token: None
+02/20/2022 07:21:34 PM Start with create_url()
+02/20/2022 07:21:34 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:21:34 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-7-01T00:00:00.000Z', 'end_time': '2017-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:21:34 PM Start with connect_to_endpoint()
+02/20/2022 07:21:34 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:21:35 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-7-01T00%3A00%3A00.000Z&end_time=2017-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 3032
+02/20/2022 07:21:35 PM else condition: next_token is in json_response
+02/20/2022 07:21:35 PM result_count is not None and result_count > 0
+02/20/2022 07:21:35 PM -------------------
+02/20/2022 07:21:35 PM Start with : 2017-7-01T00:00:00.000Z
+02/20/2022 07:21:35 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:21:35 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:21:35 PM Number of tweets: 45
+02/20/2022 07:21:35 PM -------------------
+02/20/2022 07:21:40 PM Set flag to False and next_token to None
+02/20/2022 07:21:45 PM For Loop run: 18
+02/20/2022 07:21:45 PM Start with WHILE loop.
+02/20/2022 07:21:45 PM Start Token: None
+02/20/2022 07:21:45 PM Start with create_url()
+02/20/2022 07:21:45 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:21:45 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-8-01T00:00:00.000Z', 'end_time': '2017-8-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:21:45 PM Start with connect_to_endpoint()
+02/20/2022 07:21:45 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:21:45 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-8-01T00%3A00%3A00.000Z&end_time=2017-8-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 897
+02/20/2022 07:21:45 PM else condition: next_token is in json_response
+02/20/2022 07:21:45 PM result_count is not None and result_count > 0
+02/20/2022 07:21:45 PM -------------------
+02/20/2022 07:21:45 PM Start with : 2017-8-01T00:00:00.000Z
+02/20/2022 07:21:45 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:21:45 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:21:45 PM Number of tweets: 47
+02/20/2022 07:21:45 PM -------------------
+02/20/2022 07:21:50 PM Set flag to False and next_token to None
+02/20/2022 07:21:55 PM For Loop run: 19
+02/20/2022 07:21:55 PM Start with WHILE loop.
+02/20/2022 07:21:55 PM Start Token: None
+02/20/2022 07:21:55 PM Start with create_url()
+02/20/2022 07:21:55 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:21:55 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-9-01T00:00:00.000Z', 'end_time': '2017-9-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:21:55 PM Start with connect_to_endpoint()
+02/20/2022 07:21:55 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:21:55 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-9-01T00%3A00%3A00.000Z&end_time=2017-9-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 1075
+02/20/2022 07:21:55 PM else condition: next_token is in json_response
+02/20/2022 07:21:55 PM result_count is not None and result_count > 0
+02/20/2022 07:21:55 PM -------------------
+02/20/2022 07:21:55 PM Start with : 2017-9-01T00:00:00.000Z
+02/20/2022 07:21:55 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:21:55 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:21:55 PM Number of tweets: 51
+02/20/2022 07:21:55 PM -------------------
+02/20/2022 07:22:00 PM Set flag to False and next_token to None
+02/20/2022 07:22:05 PM For Loop run: 20
+02/20/2022 07:22:05 PM Start with WHILE loop.
+02/20/2022 07:22:05 PM Start Token: None
+02/20/2022 07:22:05 PM Start with create_url()
+02/20/2022 07:22:05 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:22:05 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-10-01T00:00:00.000Z', 'end_time': '2017-10-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:22:05 PM Start with connect_to_endpoint()
+02/20/2022 07:22:05 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:22:06 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-10-01T00%3A00%3A00.000Z&end_time=2017-10-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 618
+02/20/2022 07:22:06 PM else condition: next_token is in json_response
+02/20/2022 07:22:06 PM result_count is not None and result_count > 0
+02/20/2022 07:22:06 PM -------------------
+02/20/2022 07:22:06 PM Start with : 2017-10-01T00:00:00.000Z
+02/20/2022 07:22:06 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:22:06 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:22:06 PM Number of tweets: 52
+02/20/2022 07:22:06 PM -------------------
+02/20/2022 07:22:11 PM Set flag to False and next_token to None
+02/20/2022 07:22:16 PM For Loop run: 21
+02/20/2022 07:22:16 PM Start with WHILE loop.
+02/20/2022 07:22:16 PM Start Token: None
+02/20/2022 07:22:16 PM Start with create_url()
+02/20/2022 07:22:16 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:22:16 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-11-01T00:00:00.000Z', 'end_time': '2017-11-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:22:16 PM Start with connect_to_endpoint()
+02/20/2022 07:22:16 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:22:16 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-11-01T00%3A00%3A00.000Z&end_time=2017-11-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 555
+02/20/2022 07:22:16 PM else condition: next_token is in json_response
+02/20/2022 07:22:16 PM result_count is not None and result_count > 0
+02/20/2022 07:22:16 PM -------------------
+02/20/2022 07:22:16 PM Start with : 2017-11-01T00:00:00.000Z
+02/20/2022 07:22:16 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:22:16 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:22:16 PM Number of tweets: 53
+02/20/2022 07:22:16 PM -------------------
+02/20/2022 07:22:21 PM Set flag to False and next_token to None
+02/20/2022 07:22:26 PM For Loop run: 22
+02/20/2022 07:22:26 PM Start with WHILE loop.
+02/20/2022 07:22:26 PM Start Token: None
+02/20/2022 07:22:26 PM Start with create_url()
+02/20/2022 07:22:26 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:22:26 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2017-12-01T00:00:00.000Z', 'end_time': '2017-12-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:22:26 PM Start with connect_to_endpoint()
+02/20/2022 07:22:26 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:22:26 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2017-12-01T00%3A00%3A00.000Z&end_time=2017-12-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 589
+02/20/2022 07:22:26 PM else condition: next_token is in json_response
+02/20/2022 07:22:26 PM result_count is not None and result_count > 0
+02/20/2022 07:22:26 PM -------------------
+02/20/2022 07:22:26 PM Start with : 2017-12-01T00:00:00.000Z
+02/20/2022 07:22:26 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:22:26 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:22:26 PM Number of tweets: 54
+02/20/2022 07:22:26 PM -------------------
+02/20/2022 07:22:31 PM Set flag to False and next_token to None
+02/20/2022 07:22:36 PM For Loop run: 23
+02/20/2022 07:22:36 PM Start with WHILE loop.
+02/20/2022 07:22:36 PM Start Token: None
+02/20/2022 07:22:36 PM Start with create_url()
+02/20/2022 07:22:36 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:22:36 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-1-01T00:00:00.000Z', 'end_time': '2018-1-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:22:36 PM Start with connect_to_endpoint()
+02/20/2022 07:22:36 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:22:37 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-1-01T00%3A00%3A00.000Z&end_time=2018-1-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 1659
+02/20/2022 07:22:37 PM else condition: next_token is in json_response
+02/20/2022 07:22:37 PM result_count is not None and result_count > 0
+02/20/2022 07:22:37 PM -------------------
+02/20/2022 07:22:37 PM Start with : 2018-1-01T00:00:00.000Z
+02/20/2022 07:22:37 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:22:37 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:22:37 PM Number of tweets: 58
+02/20/2022 07:22:37 PM -------------------
+02/20/2022 07:22:42 PM Set flag to False and next_token to None
+02/20/2022 07:22:47 PM For Loop run: 24
+02/20/2022 07:22:47 PM Start with WHILE loop.
+02/20/2022 07:22:47 PM Start Token: None
+02/20/2022 07:22:47 PM Start with create_url()
+02/20/2022 07:22:47 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:22:47 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-2-01T00:00:00.000Z', 'end_time': '2018-2-28T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:22:47 PM Start with connect_to_endpoint()
+02/20/2022 07:22:47 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:22:47 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-2-01T00%3A00%3A00.000Z&end_time=2018-2-28T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 3114
+02/20/2022 07:22:47 PM else condition: next_token is in json_response
+02/20/2022 07:22:47 PM result_count is not None and result_count > 0
+02/20/2022 07:22:47 PM -------------------
+02/20/2022 07:22:47 PM Start with : 2018-2-01T00:00:00.000Z
+02/20/2022 07:22:47 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:22:47 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:22:47 PM Number of tweets: 69
+02/20/2022 07:22:47 PM -------------------
+02/20/2022 07:22:52 PM Set flag to False and next_token to None
+02/20/2022 07:22:57 PM For Loop run: 25
+02/20/2022 07:22:57 PM Start with WHILE loop.
+02/20/2022 07:22:57 PM Start Token: None
+02/20/2022 07:22:57 PM Start with create_url()
+02/20/2022 07:22:57 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:22:57 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-3-01T00:00:00.000Z', 'end_time': '2018-3-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:22:57 PM Start with connect_to_endpoint()
+02/20/2022 07:22:57 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:22:58 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-3-01T00%3A00%3A00.000Z&end_time=2018-3-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 3493
+02/20/2022 07:22:58 PM else condition: next_token is in json_response
+02/20/2022 07:22:58 PM result_count is not None and result_count > 0
+02/20/2022 07:22:58 PM -------------------
+02/20/2022 07:22:58 PM Start with : 2018-3-01T00:00:00.000Z
+02/20/2022 07:22:58 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:22:58 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:22:58 PM Number of tweets: 84
+02/20/2022 07:22:58 PM -------------------
+02/20/2022 07:23:03 PM Set flag to False and next_token to None
+02/20/2022 07:23:08 PM For Loop run: 26
+02/20/2022 07:23:08 PM Start with WHILE loop.
+02/20/2022 07:23:08 PM Start Token: None
+02/20/2022 07:23:08 PM Start with create_url()
+02/20/2022 07:23:08 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:23:08 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-4-01T00:00:00.000Z', 'end_time': '2018-4-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:23:08 PM Start with connect_to_endpoint()
+02/20/2022 07:23:08 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:23:08 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-4-01T00%3A00%3A00.000Z&end_time=2018-4-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 1660
+02/20/2022 07:23:08 PM else condition: next_token is in json_response
+02/20/2022 07:23:08 PM result_count is not None and result_count > 0
+02/20/2022 07:23:08 PM -------------------
+02/20/2022 07:23:08 PM Start with : 2018-4-01T00:00:00.000Z
+02/20/2022 07:23:08 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:23:08 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:23:08 PM Number of tweets: 88
+02/20/2022 07:23:08 PM -------------------
+02/20/2022 07:23:13 PM Set flag to False and next_token to None
+02/20/2022 07:23:18 PM For Loop run: 27
+02/20/2022 07:23:18 PM Start with WHILE loop.
+02/20/2022 07:23:18 PM Start Token: None
+02/20/2022 07:23:18 PM Start with create_url()
+02/20/2022 07:23:18 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:23:18 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-5-01T00:00:00.000Z', 'end_time': '2018-5-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:23:18 PM Start with connect_to_endpoint()
+02/20/2022 07:23:18 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:23:18 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-5-01T00%3A00%3A00.000Z&end_time=2018-5-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 53
+02/20/2022 07:23:18 PM else condition: next_token is in json_response
+02/20/2022 07:23:18 PM Set flag to False and next_token to None
+02/20/2022 07:23:23 PM For Loop run: 28
+02/20/2022 07:23:23 PM Start with WHILE loop.
+02/20/2022 07:23:23 PM Start Token: None
+02/20/2022 07:23:23 PM Start with create_url()
+02/20/2022 07:23:23 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:23:23 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-6-01T00:00:00.000Z', 'end_time': '2018-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:23:23 PM Start with connect_to_endpoint()
+02/20/2022 07:23:23 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:23:24 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-6-01T00%3A00%3A00.000Z&end_time=2018-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 2378
+02/20/2022 07:23:24 PM else condition: next_token is in json_response
+02/20/2022 07:23:24 PM result_count is not None and result_count > 0
+02/20/2022 07:23:24 PM -------------------
+02/20/2022 07:23:24 PM Start with : 2018-6-01T00:00:00.000Z
+02/20/2022 07:23:24 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:23:24 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:23:24 PM Number of tweets: 94
+02/20/2022 07:23:24 PM -------------------
+02/20/2022 07:23:29 PM Set flag to False and next_token to None
+02/20/2022 07:23:34 PM For Loop run: 29
+02/20/2022 07:23:34 PM Start with WHILE loop.
+02/20/2022 07:23:34 PM Start Token: None
+02/20/2022 07:23:34 PM Start with create_url()
+02/20/2022 07:23:34 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:23:34 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-7-01T00:00:00.000Z', 'end_time': '2018-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:23:34 PM Start with connect_to_endpoint()
+02/20/2022 07:23:34 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:23:34 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-7-01T00%3A00%3A00.000Z&end_time=2018-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 1010
+02/20/2022 07:23:34 PM else condition: next_token is in json_response
+02/20/2022 07:23:34 PM result_count is not None and result_count > 0
+02/20/2022 07:23:34 PM -------------------
+02/20/2022 07:23:34 PM Start with : 2018-7-01T00:00:00.000Z
+02/20/2022 07:23:34 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:23:34 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:23:34 PM Number of tweets: 97
+02/20/2022 07:23:34 PM -------------------
+02/20/2022 07:23:39 PM Set flag to False and next_token to None
+02/20/2022 07:23:44 PM For Loop run: 30
+02/20/2022 07:23:44 PM Start with WHILE loop.
+02/20/2022 07:23:44 PM Start Token: None
+02/20/2022 07:23:44 PM Start with create_url()
+02/20/2022 07:23:44 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:23:44 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-8-01T00:00:00.000Z', 'end_time': '2018-8-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:23:44 PM Start with connect_to_endpoint()
+02/20/2022 07:23:44 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:23:45 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-8-01T00%3A00%3A00.000Z&end_time=2018-8-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 11260
+02/20/2022 07:23:45 PM else condition: next_token is in json_response
+02/20/2022 07:23:45 PM result_count is not None and result_count > 0
+02/20/2022 07:23:45 PM -------------------
+02/20/2022 07:23:45 PM Start with : 2018-8-01T00:00:00.000Z
+02/20/2022 07:23:45 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:23:45 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:23:45 PM Number of tweets: 158
+02/20/2022 07:23:45 PM -------------------
+02/20/2022 07:23:50 PM Set flag to False and next_token to None
+02/20/2022 07:23:55 PM For Loop run: 31
+02/20/2022 07:23:55 PM Start with WHILE loop.
+02/20/2022 07:23:55 PM Start Token: None
+02/20/2022 07:23:55 PM Start with create_url()
+02/20/2022 07:23:55 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:23:55 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-9-01T00:00:00.000Z', 'end_time': '2018-9-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:23:55 PM Start with connect_to_endpoint()
+02/20/2022 07:23:55 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:23:56 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-9-01T00%3A00%3A00.000Z&end_time=2018-9-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 14135
+02/20/2022 07:23:56 PM else condition: next_token is in json_response
+02/20/2022 07:23:56 PM result_count is not None and result_count > 0
+02/20/2022 07:23:56 PM -------------------
+02/20/2022 07:23:56 PM Start with : 2018-9-01T00:00:00.000Z
+02/20/2022 07:23:56 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:23:56 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:23:56 PM Number of tweets: 240
+02/20/2022 07:23:56 PM -------------------
+02/20/2022 07:24:01 PM Set flag to False and next_token to None
+02/20/2022 07:24:06 PM For Loop run: 32
+02/20/2022 07:24:06 PM Start with WHILE loop.
+02/20/2022 07:24:06 PM Start Token: None
+02/20/2022 07:24:06 PM Start with create_url()
+02/20/2022 07:24:06 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:24:06 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-10-01T00:00:00.000Z', 'end_time': '2018-10-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:24:06 PM Start with connect_to_endpoint()
+02/20/2022 07:24:06 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:24:07 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-10-01T00%3A00%3A00.000Z&end_time=2018-10-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 14026
+02/20/2022 07:24:07 PM else condition: next_token is in json_response
+02/20/2022 07:24:07 PM result_count is not None and result_count > 0
+02/20/2022 07:24:07 PM -------------------
+02/20/2022 07:24:07 PM Start with : 2018-10-01T00:00:00.000Z
+02/20/2022 07:24:07 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:24:07 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:24:07 PM Number of tweets: 317
+02/20/2022 07:24:07 PM -------------------
+02/20/2022 07:24:12 PM Set flag to False and next_token to None
+02/20/2022 07:24:17 PM For Loop run: 33
+02/20/2022 07:24:17 PM Start with WHILE loop.
+02/20/2022 07:24:17 PM Start Token: None
+02/20/2022 07:24:17 PM Start with create_url()
+02/20/2022 07:24:17 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:24:17 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-11-01T00:00:00.000Z', 'end_time': '2018-11-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:24:17 PM Start with connect_to_endpoint()
+02/20/2022 07:24:17 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:24:17 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-11-01T00%3A00%3A00.000Z&end_time=2018-11-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 5202
+02/20/2022 07:24:17 PM else condition: next_token is in json_response
+02/20/2022 07:24:17 PM result_count is not None and result_count > 0
+02/20/2022 07:24:17 PM -------------------
+02/20/2022 07:24:17 PM Start with : 2018-11-01T00:00:00.000Z
+02/20/2022 07:24:17 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:24:17 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:24:17 PM Number of tweets: 339
+02/20/2022 07:24:17 PM -------------------
+02/20/2022 07:24:22 PM Set flag to False and next_token to None
+02/20/2022 07:24:27 PM For Loop run: 34
+02/20/2022 07:24:27 PM Start with WHILE loop.
+02/20/2022 07:24:27 PM Start Token: None
+02/20/2022 07:24:27 PM Start with create_url()
+02/20/2022 07:24:27 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:24:27 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2018-12-01T00:00:00.000Z', 'end_time': '2018-12-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:24:27 PM Start with connect_to_endpoint()
+02/20/2022 07:24:27 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:24:28 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2018-12-01T00%3A00%3A00.000Z&end_time=2018-12-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 3940
+02/20/2022 07:24:28 PM else condition: next_token is in json_response
+02/20/2022 07:24:28 PM result_count is not None and result_count > 0
+02/20/2022 07:24:28 PM -------------------
+02/20/2022 07:24:28 PM Start with : 2018-12-01T00:00:00.000Z
+02/20/2022 07:24:28 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:24:28 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:24:28 PM Number of tweets: 356
+02/20/2022 07:24:28 PM -------------------
+02/20/2022 07:24:33 PM Set flag to False and next_token to None
+02/20/2022 07:24:38 PM For Loop run: 35
+02/20/2022 07:24:38 PM Start with WHILE loop.
+02/20/2022 07:24:38 PM Start Token: None
+02/20/2022 07:24:38 PM Start with create_url()
+02/20/2022 07:24:38 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:24:38 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-1-01T00:00:00.000Z', 'end_time': '2019-1-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:24:38 PM Start with connect_to_endpoint()
+02/20/2022 07:24:38 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:24:38 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-1-01T00%3A00%3A00.000Z&end_time=2019-1-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 5767
+02/20/2022 07:24:38 PM else condition: next_token is in json_response
+02/20/2022 07:24:38 PM result_count is not None and result_count > 0
+02/20/2022 07:24:38 PM -------------------
+02/20/2022 07:24:38 PM Start with : 2019-1-01T00:00:00.000Z
+02/20/2022 07:24:38 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:24:38 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:24:38 PM Number of tweets: 376
+02/20/2022 07:24:38 PM -------------------
+02/20/2022 07:24:43 PM Set flag to False and next_token to None
+02/20/2022 07:24:48 PM For Loop run: 36
+02/20/2022 07:24:48 PM Start with WHILE loop.
+02/20/2022 07:24:48 PM Start Token: None
+02/20/2022 07:24:48 PM Start with create_url()
+02/20/2022 07:24:48 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:24:48 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-2-01T00:00:00.000Z', 'end_time': '2019-2-28T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:24:48 PM Start with connect_to_endpoint()
+02/20/2022 07:24:48 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:24:49 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-2-01T00%3A00%3A00.000Z&end_time=2019-2-28T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 27116
+02/20/2022 07:24:49 PM else condition: next_token is in json_response
+02/20/2022 07:24:49 PM result_count is not None and result_count > 0
+02/20/2022 07:24:49 PM -------------------
+02/20/2022 07:24:49 PM Start with : 2019-2-01T00:00:00.000Z
+02/20/2022 07:24:49 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:24:49 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:24:49 PM Number of tweets: 530
+02/20/2022 07:24:49 PM -------------------
+02/20/2022 07:24:54 PM Set flag to False and next_token to None
+02/20/2022 07:24:59 PM For Loop run: 37
+02/20/2022 07:24:59 PM Start with WHILE loop.
+02/20/2022 07:24:59 PM Start Token: None
+02/20/2022 07:24:59 PM Start with create_url()
+02/20/2022 07:24:59 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:24:59 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-3-01T00:00:00.000Z', 'end_time': '2019-3-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:24:59 PM Start with connect_to_endpoint()
+02/20/2022 07:24:59 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:25:01 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-3-01T00%3A00%3A00.000Z&end_time=2019-3-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 62286
+02/20/2022 07:25:01 PM else condition: next_token is in json_response
+02/20/2022 07:25:01 PM result_count is not None and result_count > 0
+02/20/2022 07:25:01 PM -------------------
+02/20/2022 07:25:01 PM Start with : 2019-3-01T00:00:00.000Z
+02/20/2022 07:25:01 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:25:01 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:25:01 PM Number of tweets: 971
+02/20/2022 07:25:01 PM -------------------
+02/20/2022 07:25:06 PM Set flag to False and next_token to None
+02/20/2022 07:25:11 PM For Loop run: 38
+02/20/2022 07:25:11 PM Start with WHILE loop.
+02/20/2022 07:25:11 PM Start Token: None
+02/20/2022 07:25:11 PM Start with create_url()
+02/20/2022 07:25:11 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:25:11 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-4-01T00:00:00.000Z', 'end_time': '2019-4-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:25:11 PM Start with connect_to_endpoint()
+02/20/2022 07:25:11 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:25:12 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-4-01T00%3A00%3A00.000Z&end_time=2019-4-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 26664
+02/20/2022 07:25:12 PM else condition: next_token is in json_response
+02/20/2022 07:25:12 PM result_count is not None and result_count > 0
+02/20/2022 07:25:12 PM -------------------
+02/20/2022 07:25:12 PM Start with : 2019-4-01T00:00:00.000Z
+02/20/2022 07:25:12 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:25:12 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:25:12 PM Number of tweets: 1125
+02/20/2022 07:25:12 PM -------------------
+02/20/2022 07:25:17 PM Set flag to False and next_token to None
+02/20/2022 07:25:22 PM For Loop run: 39
+02/20/2022 07:25:22 PM Start with WHILE loop.
+02/20/2022 07:25:22 PM Start Token: None
+02/20/2022 07:25:22 PM Start with create_url()
+02/20/2022 07:25:22 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:25:22 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-5-01T00:00:00.000Z', 'end_time': '2019-5-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:25:22 PM Start with connect_to_endpoint()
+02/20/2022 07:25:22 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:25:23 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-5-01T00%3A00%3A00.000Z&end_time=2019-5-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 19755
+02/20/2022 07:25:23 PM else condition: next_token is in json_response
+02/20/2022 07:25:23 PM result_count is not None and result_count > 0
+02/20/2022 07:25:23 PM -------------------
+02/20/2022 07:25:23 PM Start with : 2019-5-01T00:00:00.000Z
+02/20/2022 07:25:23 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:25:23 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:25:23 PM Number of tweets: 1223
+02/20/2022 07:25:23 PM -------------------
+02/20/2022 07:25:28 PM Set flag to False and next_token to None
+02/20/2022 07:25:33 PM For Loop run: 40
+02/20/2022 07:25:33 PM Start with WHILE loop.
+02/20/2022 07:25:33 PM Start Token: None
+02/20/2022 07:25:33 PM Start with create_url()
+02/20/2022 07:25:33 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:25:33 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-6-01T00:00:00.000Z', 'end_time': '2019-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:25:33 PM Start with connect_to_endpoint()
+02/20/2022 07:25:33 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:25:34 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-6-01T00%3A00%3A00.000Z&end_time=2019-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 7094
+02/20/2022 07:25:34 PM else condition: next_token is in json_response
+02/20/2022 07:25:34 PM result_count is not None and result_count > 0
+02/20/2022 07:25:34 PM -------------------
+02/20/2022 07:25:34 PM Start with : 2019-6-01T00:00:00.000Z
+02/20/2022 07:25:34 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:25:34 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:25:34 PM Number of tweets: 1256
+02/20/2022 07:25:34 PM -------------------
+02/20/2022 07:25:39 PM Set flag to False and next_token to None
+02/20/2022 07:25:44 PM For Loop run: 41
+02/20/2022 07:25:44 PM Start with WHILE loop.
+02/20/2022 07:25:44 PM Start Token: None
+02/20/2022 07:25:44 PM Start with create_url()
+02/20/2022 07:25:44 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:25:44 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-7-01T00:00:00.000Z', 'end_time': '2019-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:25:44 PM Start with connect_to_endpoint()
+02/20/2022 07:25:44 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:25:44 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-7-01T00%3A00%3A00.000Z&end_time=2019-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 6059
+02/20/2022 07:25:44 PM else condition: next_token is in json_response
+02/20/2022 07:25:44 PM result_count is not None and result_count > 0
+02/20/2022 07:25:44 PM -------------------
+02/20/2022 07:25:44 PM Start with : 2019-7-01T00:00:00.000Z
+02/20/2022 07:25:44 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:25:44 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:25:44 PM Number of tweets: 1282
+02/20/2022 07:25:44 PM -------------------
+02/20/2022 07:25:49 PM Set flag to False and next_token to None
+02/20/2022 07:25:54 PM For Loop run: 42
+02/20/2022 07:25:54 PM Start with WHILE loop.
+02/20/2022 07:25:54 PM Start Token: None
+02/20/2022 07:25:54 PM Start with create_url()
+02/20/2022 07:25:54 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:25:54 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-8-01T00:00:00.000Z', 'end_time': '2019-8-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:25:54 PM Start with connect_to_endpoint()
+02/20/2022 07:25:54 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:25:55 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-8-01T00%3A00%3A00.000Z&end_time=2019-8-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 15793
+02/20/2022 07:25:55 PM else condition: next_token is in json_response
+02/20/2022 07:25:55 PM result_count is not None and result_count > 0
+02/20/2022 07:25:55 PM -------------------
+02/20/2022 07:25:55 PM Start with : 2019-8-01T00:00:00.000Z
+02/20/2022 07:25:55 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:25:55 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:25:55 PM Number of tweets: 1369
+02/20/2022 07:25:55 PM -------------------
+02/20/2022 07:26:00 PM Set flag to False and next_token to None
+02/20/2022 07:26:05 PM For Loop run: 43
+02/20/2022 07:26:05 PM Start with WHILE loop.
+02/20/2022 07:26:05 PM Start Token: None
+02/20/2022 07:26:05 PM Start with create_url()
+02/20/2022 07:26:05 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:26:05 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-9-01T00:00:00.000Z', 'end_time': '2019-9-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:26:05 PM Start with connect_to_endpoint()
+02/20/2022 07:26:05 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:26:06 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-9-01T00%3A00%3A00.000Z&end_time=2019-9-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 11660
+02/20/2022 07:26:06 PM else condition: next_token is in json_response
+02/20/2022 07:26:06 PM result_count is not None and result_count > 0
+02/20/2022 07:26:06 PM -------------------
+02/20/2022 07:26:06 PM Start with : 2019-9-01T00:00:00.000Z
+02/20/2022 07:26:06 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:26:06 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:26:06 PM Number of tweets: 1425
+02/20/2022 07:26:06 PM -------------------
+02/20/2022 07:26:11 PM Set flag to False and next_token to None
+02/20/2022 07:26:16 PM For Loop run: 44
+02/20/2022 07:26:16 PM Start with WHILE loop.
+02/20/2022 07:26:16 PM Start Token: None
+02/20/2022 07:26:16 PM Start with create_url()
+02/20/2022 07:26:16 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:26:16 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-10-01T00:00:00.000Z', 'end_time': '2019-10-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:26:16 PM Start with connect_to_endpoint()
+02/20/2022 07:26:16 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:26:17 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-10-01T00%3A00%3A00.000Z&end_time=2019-10-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 17096
+02/20/2022 07:26:17 PM else condition: next_token is in json_response
+02/20/2022 07:26:17 PM result_count is not None and result_count > 0
+02/20/2022 07:26:17 PM -------------------
+02/20/2022 07:26:17 PM Start with : 2019-10-01T00:00:00.000Z
+02/20/2022 07:26:17 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:26:17 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:26:17 PM Number of tweets: 1521
+02/20/2022 07:26:17 PM -------------------
+02/20/2022 07:26:22 PM Set flag to False and next_token to None
+02/20/2022 07:26:27 PM For Loop run: 45
+02/20/2022 07:26:27 PM Start with WHILE loop.
+02/20/2022 07:26:27 PM Start Token: None
+02/20/2022 07:26:27 PM Start with create_url()
+02/20/2022 07:26:27 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:26:27 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-11-01T00:00:00.000Z', 'end_time': '2019-11-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:26:27 PM Start with connect_to_endpoint()
+02/20/2022 07:26:27 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:26:28 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-11-01T00%3A00%3A00.000Z&end_time=2019-11-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 24805
+02/20/2022 07:26:28 PM else condition: next_token is in json_response
+02/20/2022 07:26:28 PM result_count is not None and result_count > 0
+02/20/2022 07:26:28 PM -------------------
+02/20/2022 07:26:28 PM Start with : 2019-11-01T00:00:00.000Z
+02/20/2022 07:26:28 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:26:28 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:26:28 PM Number of tweets: 1662
+02/20/2022 07:26:28 PM -------------------
+02/20/2022 07:26:33 PM Set flag to False and next_token to None
+02/20/2022 07:26:38 PM For Loop run: 46
+02/20/2022 07:26:38 PM Start with WHILE loop.
+02/20/2022 07:26:38 PM Start Token: None
+02/20/2022 07:26:38 PM Start with create_url()
+02/20/2022 07:26:38 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:26:38 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2019-12-01T00:00:00.000Z', 'end_time': '2019-12-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:26:38 PM Start with connect_to_endpoint()
+02/20/2022 07:26:38 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:26:40 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2019-12-01T00%3A00%3A00.000Z&end_time=2019-12-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 71574
+02/20/2022 07:26:40 PM else condition: next_token is in json_response
+02/20/2022 07:26:40 PM result_count is not None and result_count > 0
+02/20/2022 07:26:40 PM -------------------
+02/20/2022 07:26:40 PM Start with : 2019-12-01T00:00:00.000Z
+02/20/2022 07:26:40 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:26:40 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:26:40 PM Number of tweets: 2159
+02/20/2022 07:26:40 PM -------------------
+02/20/2022 07:26:45 PM Set flag to False and next_token to None
+02/20/2022 07:26:50 PM For Loop run: 47
+02/20/2022 07:26:50 PM Start with WHILE loop.
+02/20/2022 07:26:50 PM Start Token: None
+02/20/2022 07:26:50 PM Start with create_url()
+02/20/2022 07:26:50 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:26:50 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-1-01T00:00:00.000Z', 'end_time': '2020-1-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:26:50 PM Start with connect_to_endpoint()
+02/20/2022 07:26:50 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:26:51 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-1-01T00%3A00%3A00.000Z&end_time=2020-1-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 29866
+02/20/2022 07:26:51 PM else condition: next_token is in json_response
+02/20/2022 07:26:51 PM result_count is not None and result_count > 0
+02/20/2022 07:26:51 PM -------------------
+02/20/2022 07:26:51 PM Start with : 2020-1-01T00:00:00.000Z
+02/20/2022 07:26:51 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:26:51 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:26:51 PM Number of tweets: 2339
+02/20/2022 07:26:51 PM -------------------
+02/20/2022 07:26:56 PM Set flag to False and next_token to None
+02/20/2022 07:27:01 PM For Loop run: 48
+02/20/2022 07:27:01 PM Start with WHILE loop.
+02/20/2022 07:27:01 PM Start Token: None
+02/20/2022 07:27:01 PM Start with create_url()
+02/20/2022 07:27:01 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:27:01 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-2-01T00:00:00.000Z', 'end_time': '2020-2-29T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:27:01 PM Start with connect_to_endpoint()
+02/20/2022 07:27:01 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:27:02 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-2-01T00%3A00%3A00.000Z&end_time=2020-2-29T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 33557
+02/20/2022 07:27:02 PM else condition: next_token is in json_response
+02/20/2022 07:27:02 PM result_count is not None and result_count > 0
+02/20/2022 07:27:02 PM -------------------
+02/20/2022 07:27:02 PM Start with : 2020-2-01T00:00:00.000Z
+02/20/2022 07:27:02 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:27:02 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:27:02 PM Number of tweets: 2538
+02/20/2022 07:27:02 PM -------------------
+02/20/2022 07:27:07 PM Set flag to False and next_token to None
+02/20/2022 07:27:12 PM For Loop run: 49
+02/20/2022 07:27:12 PM Start with WHILE loop.
+02/20/2022 07:27:12 PM Start Token: None
+02/20/2022 07:27:12 PM Start with create_url()
+02/20/2022 07:27:12 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:27:12 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-3-01T00:00:00.000Z', 'end_time': '2020-3-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:27:12 PM Start with connect_to_endpoint()
+02/20/2022 07:27:12 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:27:13 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-3-01T00%3A00%3A00.000Z&end_time=2020-3-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 23112
+02/20/2022 07:27:13 PM else condition: next_token is in json_response
+02/20/2022 07:27:13 PM result_count is not None and result_count > 0
+02/20/2022 07:27:13 PM -------------------
+02/20/2022 07:27:13 PM Start with : 2020-3-01T00:00:00.000Z
+02/20/2022 07:27:13 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:27:13 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:27:13 PM Number of tweets: 2681
+02/20/2022 07:27:13 PM -------------------
+02/20/2022 07:27:18 PM Set flag to False and next_token to None
+02/20/2022 07:27:23 PM For Loop run: 50
+02/20/2022 07:27:23 PM Start with WHILE loop.
+02/20/2022 07:27:23 PM Start Token: None
+02/20/2022 07:27:23 PM Start with create_url()
+02/20/2022 07:27:23 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:27:23 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-4-01T00:00:00.000Z', 'end_time': '2020-4-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:27:23 PM Start with connect_to_endpoint()
+02/20/2022 07:27:23 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:27:24 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-4-01T00%3A00%3A00.000Z&end_time=2020-4-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 48033
+02/20/2022 07:27:24 PM else condition: next_token is in json_response
+02/20/2022 07:27:24 PM result_count is not None and result_count > 0
+02/20/2022 07:27:24 PM -------------------
+02/20/2022 07:27:24 PM Start with : 2020-4-01T00:00:00.000Z
+02/20/2022 07:27:24 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:27:24 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:27:24 PM Number of tweets: 2966
+02/20/2022 07:27:24 PM -------------------
+02/20/2022 07:27:29 PM Set flag to False and next_token to None
+02/20/2022 07:27:34 PM For Loop run: 51
+02/20/2022 07:27:34 PM Start with WHILE loop.
+02/20/2022 07:27:34 PM Start Token: None
+02/20/2022 07:27:34 PM Start with create_url()
+02/20/2022 07:27:34 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:27:34 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-5-01T00:00:00.000Z', 'end_time': '2020-5-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:27:34 PM Start with connect_to_endpoint()
+02/20/2022 07:27:34 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:27:36 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-5-01T00%3A00%3A00.000Z&end_time=2020-5-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 75926
+02/20/2022 07:27:36 PM if condition: next_token is in json_response
+02/20/2022 07:27:36 PM Next Token: b26v89c19zqg8o3fo7ddr0fnfkxbcex10lncamhdqmflp
+02/20/2022 07:27:36 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:27:36 PM -------------------
+02/20/2022 07:27:36 PM Start with : 2020-5-01T00:00:00.000Z
+02/20/2022 07:27:36 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:27:36 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:27:36 PM Number of tweets: 3464
+02/20/2022 07:27:36 PM -------------------
+02/20/2022 07:27:46 PM Start with WHILE loop.
+02/20/2022 07:27:46 PM Start Token: b26v89c19zqg8o3fo7ddr0fnfkxbcex10lncamhdqmflp
+02/20/2022 07:27:46 PM Start with create_url()
+02/20/2022 07:27:46 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:27:46 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-5-01T00:00:00.000Z', 'end_time': '2020-5-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:27:46 PM Start with connect_to_endpoint()
+02/20/2022 07:27:46 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:27:48 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-5-01T00%3A00%3A00.000Z&end_time=2020-5-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7ddr0fnfkxbcex10lncamhdqmflp HTTP/1.1" 200 81791
+02/20/2022 07:27:48 PM if condition: next_token is in json_response
+02/20/2022 07:27:48 PM Next Token: b26v89c19zqg8o3fo7aghxtuztz23b6zg2v8phbdylv25
+02/20/2022 07:27:48 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:27:48 PM -------------------
+02/20/2022 07:27:48 PM Start with : 2020-5-01T00:00:00.000Z
+02/20/2022 07:27:48 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:27:48 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:27:48 PM Number of tweets: 3959
+02/20/2022 07:27:48 PM -------------------
+02/20/2022 07:27:58 PM Start with WHILE loop.
+02/20/2022 07:27:58 PM Start Token: b26v89c19zqg8o3fo7aghxtuztz23b6zg2v8phbdylv25
+02/20/2022 07:27:58 PM Start with create_url()
+02/20/2022 07:27:58 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:27:58 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-5-01T00:00:00.000Z', 'end_time': '2020-5-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:27:58 PM Start with connect_to_endpoint()
+02/20/2022 07:27:58 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:27:59 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-5-01T00%3A00%3A00.000Z&end_time=2020-5-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7aghxtuztz23b6zg2v8phbdylv25 HTTP/1.1" 200 24588
+02/20/2022 07:27:59 PM else condition: next_token is in json_response
+02/20/2022 07:27:59 PM result_count is not None and result_count > 0
+02/20/2022 07:27:59 PM -------------------
+02/20/2022 07:27:59 PM Start with : 2020-5-01T00:00:00.000Z
+02/20/2022 07:27:59 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:27:59 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:27:59 PM Number of tweets: 4094
+02/20/2022 07:27:59 PM -------------------
+02/20/2022 07:28:04 PM Set flag to False and next_token to None
+02/20/2022 07:28:09 PM For Loop run: 52
+02/20/2022 07:28:09 PM Start with WHILE loop.
+02/20/2022 07:28:09 PM Start Token: None
+02/20/2022 07:28:09 PM Start with create_url()
+02/20/2022 07:28:09 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:28:09 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:28:09 PM Start with connect_to_endpoint()
+02/20/2022 07:28:09 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:28:10 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 82973
+02/20/2022 07:28:11 PM if condition: next_token is in json_response
+02/20/2022 07:28:11 PM Next Token: b26v89c19zqg8o3fo7gf7n6dc5ie8nndvz0tz6vbew7st
+02/20/2022 07:28:11 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:28:11 PM -------------------
+02/20/2022 07:28:11 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:28:11 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:28:11 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:28:11 PM Number of tweets: 4583
+02/20/2022 07:28:11 PM -------------------
+02/20/2022 07:28:21 PM Start with WHILE loop.
+02/20/2022 07:28:21 PM Start Token: b26v89c19zqg8o3fo7gf7n6dc5ie8nndvz0tz6vbew7st
+02/20/2022 07:28:21 PM Start with create_url()
+02/20/2022 07:28:21 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:28:21 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:28:21 PM Start with connect_to_endpoint()
+02/20/2022 07:28:21 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:28:22 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7gf7n6dc5ie8nndvz0tz6vbew7st HTTP/1.1" 200 86638
+02/20/2022 07:28:22 PM if condition: next_token is in json_response
+02/20/2022 07:28:22 PM Next Token: b26v89c19zqg8o3fo7gess6v01dygd0ai4u24wa6vlfgd
+02/20/2022 07:28:22 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:28:22 PM -------------------
+02/20/2022 07:28:22 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:28:22 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:28:22 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:28:22 PM Number of tweets: 5077
+02/20/2022 07:28:22 PM -------------------
+02/20/2022 07:28:32 PM Start with WHILE loop.
+02/20/2022 07:28:32 PM Start Token: b26v89c19zqg8o3fo7gess6v01dygd0ai4u24wa6vlfgd
+02/20/2022 07:28:32 PM Start with create_url()
+02/20/2022 07:28:32 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:28:32 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:28:32 PM Start with connect_to_endpoint()
+02/20/2022 07:28:32 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:28:34 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7gess6v01dygd0ai4u24wa6vlfgd HTTP/1.1" 200 85649
+02/20/2022 07:28:34 PM if condition: next_token is in json_response
+02/20/2022 07:28:34 PM Next Token: b26v89c19zqg8o3fo7gesjnnj953ewum3jhek4ce4ferh
+02/20/2022 07:28:34 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:28:34 PM -------------------
+02/20/2022 07:28:34 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:28:34 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:28:34 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:28:34 PM Number of tweets: 5567
+02/20/2022 07:28:34 PM -------------------
+02/20/2022 07:28:44 PM Start with WHILE loop.
+02/20/2022 07:28:44 PM Start Token: b26v89c19zqg8o3fo7gesjnnj953ewum3jhek4ce4ferh
+02/20/2022 07:28:44 PM Start with create_url()
+02/20/2022 07:28:44 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:28:44 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:28:44 PM Start with connect_to_endpoint()
+02/20/2022 07:28:44 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:28:45 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7gesjnnj953ewum3jhek4ce4ferh HTTP/1.1" 200 79225
+02/20/2022 07:28:46 PM if condition: next_token is in json_response
+02/20/2022 07:28:46 PM Next Token: b26v89c19zqg8o3fo7gesfgb59aqqz028z8tbefsiakcd
+02/20/2022 07:28:46 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:28:46 PM -------------------
+02/20/2022 07:28:46 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:28:46 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:28:46 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:28:46 PM Number of tweets: 6047
+02/20/2022 07:28:46 PM -------------------
+02/20/2022 07:28:56 PM Start with WHILE loop.
+02/20/2022 07:28:56 PM Start Token: b26v89c19zqg8o3fo7gesfgb59aqqz028z8tbefsiakcd
+02/20/2022 07:28:56 PM Start with create_url()
+02/20/2022 07:28:56 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:28:56 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:28:56 PM Start with connect_to_endpoint()
+02/20/2022 07:28:56 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:28:57 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7gesfgb59aqqz028z8tbefsiakcd HTTP/1.1" 200 81304
+02/20/2022 07:28:57 PM if condition: next_token is in json_response
+02/20/2022 07:28:57 PM Next Token: b26v89c19zqg8o3fo7gesd9hce281b561kta6truu08l9
+02/20/2022 07:28:57 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:28:57 PM -------------------
+02/20/2022 07:28:57 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:28:57 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:28:57 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:28:57 PM Number of tweets: 6527
+02/20/2022 07:28:57 PM -------------------
+02/20/2022 07:29:07 PM Start with WHILE loop.
+02/20/2022 07:29:07 PM Start Token: b26v89c19zqg8o3fo7gesd9hce281b561kta6truu08l9
+02/20/2022 07:29:07 PM Start with create_url()
+02/20/2022 07:29:07 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:29:07 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:29:07 PM Start with connect_to_endpoint()
+02/20/2022 07:29:07 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:29:09 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7gesd9hce281b561kta6truu08l9 HTTP/1.1" 200 80982
+02/20/2022 07:29:09 PM if condition: next_token is in json_response
+02/20/2022 07:29:09 PM Next Token: b26v89c19zqg8o3fo7gedib690h31yepmot4fnsscbj3x
+02/20/2022 07:29:09 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:29:09 PM -------------------
+02/20/2022 07:29:09 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:29:09 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:29:09 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:29:09 PM Number of tweets: 7020
+02/20/2022 07:29:09 PM -------------------
+02/20/2022 07:29:19 PM Start with WHILE loop.
+02/20/2022 07:29:19 PM Start Token: b26v89c19zqg8o3fo7gedib690h31yepmot4fnsscbj3x
+02/20/2022 07:29:19 PM Start with create_url()
+02/20/2022 07:29:19 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:29:19 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:29:19 PM Start with connect_to_endpoint()
+02/20/2022 07:29:19 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:29:21 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7gedib690h31yepmot4fnsscbj3x HTTP/1.1" 200 90777
+02/20/2022 07:29:21 PM if condition: next_token is in json_response
+02/20/2022 07:29:21 PM Next Token: b26v89c19zqg8o3fo7ged3fvp59d3jxi6u2jcjun0nn25
+02/20/2022 07:29:21 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:29:21 PM -------------------
+02/20/2022 07:29:21 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:29:21 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:29:21 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:29:21 PM Number of tweets: 7517
+02/20/2022 07:29:21 PM -------------------
+02/20/2022 07:29:31 PM Start with WHILE loop.
+02/20/2022 07:29:31 PM Start Token: b26v89c19zqg8o3fo7ged3fvp59d3jxi6u2jcjun0nn25
+02/20/2022 07:29:31 PM Start with create_url()
+02/20/2022 07:29:31 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:29:31 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:29:31 PM Start with connect_to_endpoint()
+02/20/2022 07:29:31 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:29:33 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7ged3fvp59d3jxi6u2jcjun0nn25 HTTP/1.1" 200 85588
+02/20/2022 07:29:33 PM if condition: next_token is in json_response
+02/20/2022 07:29:33 PM Next Token: b26v89c19zqg8o3fo7gdygzvnso0rwaghutngiowrc9kt
+02/20/2022 07:29:33 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:29:33 PM -------------------
+02/20/2022 07:29:33 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:29:33 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:29:33 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:29:33 PM Number of tweets: 8010
+02/20/2022 07:29:33 PM -------------------
+02/20/2022 07:29:43 PM Start with WHILE loop.
+02/20/2022 07:29:43 PM Start Token: b26v89c19zqg8o3fo7gdygzvnso0rwaghutngiowrc9kt
+02/20/2022 07:29:43 PM Start with create_url()
+02/20/2022 07:29:43 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:29:43 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:29:43 PM Start with connect_to_endpoint()
+02/20/2022 07:29:43 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:29:45 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7gdygzvnso0rwaghutngiowrc9kt HTTP/1.1" 200 84304
+02/20/2022 07:29:45 PM if condition: next_token is in json_response
+02/20/2022 07:29:45 PM Next Token: b26v89c19zqg8o3fo7gdyalpcbkzamun9qhjkivbypqil
+02/20/2022 07:29:45 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:29:45 PM -------------------
+02/20/2022 07:29:45 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:29:45 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:29:45 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:29:45 PM Number of tweets: 8506
+02/20/2022 07:29:45 PM -------------------
+02/20/2022 07:29:55 PM Start with WHILE loop.
+02/20/2022 07:29:55 PM Start Token: b26v89c19zqg8o3fo7gdyalpcbkzamun9qhjkivbypqil
+02/20/2022 07:29:55 PM Start with create_url()
+02/20/2022 07:29:55 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:29:55 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:29:55 PM Start with connect_to_endpoint()
+02/20/2022 07:29:55 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:29:56 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7gdyalpcbkzamun9qhjkivbypqil HTTP/1.1" 200 79484
+02/20/2022 07:29:57 PM if condition: next_token is in json_response
+02/20/2022 07:29:57 PM Next Token: b26v89c19zqg8o3fo7dgad0p2b0vfoboucz90d12exf25
+02/20/2022 07:29:57 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:29:57 PM -------------------
+02/20/2022 07:29:57 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:29:57 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:29:57 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:29:57 PM Number of tweets: 9001
+02/20/2022 07:29:57 PM -------------------
+02/20/2022 07:30:07 PM Start with WHILE loop.
+02/20/2022 07:30:07 PM Start Token: b26v89c19zqg8o3fo7dgad0p2b0vfoboucz90d12exf25
+02/20/2022 07:30:07 PM Start with create_url()
+02/20/2022 07:30:07 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:30:07 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-6-01T00:00:00.000Z', 'end_time': '2020-6-30T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:30:07 PM Start with connect_to_endpoint()
+02/20/2022 07:30:07 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:30:08 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-6-01T00%3A00%3A00.000Z&end_time=2020-6-30T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7dgad0p2b0vfoboucz90d12exf25 HTTP/1.1" 200 15422
+02/20/2022 07:30:08 PM else condition: next_token is in json_response
+02/20/2022 07:30:08 PM result_count is not None and result_count > 0
+02/20/2022 07:30:08 PM -------------------
+02/20/2022 07:30:08 PM Start with : 2020-6-01T00:00:00.000Z
+02/20/2022 07:30:08 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:30:08 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:30:08 PM Number of tweets: 9083
+02/20/2022 07:30:08 PM -------------------
+02/20/2022 07:30:13 PM Set flag to False and next_token to None
+02/20/2022 07:30:18 PM For Loop run: 53
+02/20/2022 07:30:18 PM Start with WHILE loop.
+02/20/2022 07:30:18 PM Start Token: None
+02/20/2022 07:30:18 PM Start with create_url()
+02/20/2022 07:30:18 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:30:18 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:30:18 PM Start with connect_to_endpoint()
+02/20/2022 07:30:18 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:30:19 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified HTTP/1.1" 200 78806
+02/20/2022 07:30:20 PM if condition: next_token is in json_response
+02/20/2022 07:30:20 PM Next Token: b26v89c19zqg8o3fo7jfega0bat91sy2h4y81wcfsy1rx
+02/20/2022 07:30:20 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:30:20 PM -------------------
+02/20/2022 07:30:20 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:30:20 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:30:20 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:30:20 PM Number of tweets: 9572
+02/20/2022 07:30:20 PM -------------------
+02/20/2022 07:30:30 PM Start with WHILE loop.
+02/20/2022 07:30:30 PM Start Token: b26v89c19zqg8o3fo7jfega0bat91sy2h4y81wcfsy1rx
+02/20/2022 07:30:30 PM Start with create_url()
+02/20/2022 07:30:30 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:30:30 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:30:30 PM Start with connect_to_endpoint()
+02/20/2022 07:30:30 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:30:32 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7jfega0bat91sy2h4y81wcfsy1rx HTTP/1.1" 200 78963
+02/20/2022 07:30:32 PM if condition: next_token is in json_response
+02/20/2022 07:30:32 PM Next Token: b26v89c19zqg8o3fo7jezangwfqh0zrp971yjbdyk0f3x
+02/20/2022 07:30:32 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:30:32 PM -------------------
+02/20/2022 07:30:32 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:30:32 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:30:32 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:30:32 PM Number of tweets: 10059
+02/20/2022 07:30:32 PM -------------------
+02/20/2022 07:30:42 PM Start with WHILE loop.
+02/20/2022 07:30:42 PM Start Token: b26v89c19zqg8o3fo7jezangwfqh0zrp971yjbdyk0f3x
+02/20/2022 07:30:42 PM Start with create_url()
+02/20/2022 07:30:42 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:30:42 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:30:42 PM Start with connect_to_endpoint()
+02/20/2022 07:30:42 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:30:44 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7jezangwfqh0zrp971yjbdyk0f3x HTTP/1.1" 200 85855
+02/20/2022 07:30:44 PM if condition: next_token is in json_response
+02/20/2022 07:30:44 PM Next Token: b26v89c19zqg8o3fo7jek78ng425hv50bzwsgya4alegt
+02/20/2022 07:30:44 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:30:44 PM -------------------
+02/20/2022 07:30:44 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:30:44 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:30:44 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:30:44 PM Number of tweets: 10551
+02/20/2022 07:30:44 PM -------------------
+02/20/2022 07:30:54 PM Start with WHILE loop.
+02/20/2022 07:30:54 PM Start Token: b26v89c19zqg8o3fo7jek78ng425hv50bzwsgya4alegt
+02/20/2022 07:30:54 PM Start with create_url()
+02/20/2022 07:30:54 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:30:54 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:30:54 PM Start with connect_to_endpoint()
+02/20/2022 07:30:54 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:30:56 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7jek78ng425hv50bzwsgya4alegt HTTP/1.1" 200 79740
+02/20/2022 07:30:56 PM if condition: next_token is in json_response
+02/20/2022 07:30:56 PM Next Token: b26v89c19zqg8o3fo7je5ecymzbdmzl6jkttsf05vniwt
+02/20/2022 07:30:56 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:30:56 PM -------------------
+02/20/2022 07:30:56 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:30:56 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:30:56 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:30:56 PM Number of tweets: 11047
+02/20/2022 07:30:56 PM -------------------
+02/20/2022 07:31:06 PM Start with WHILE loop.
+02/20/2022 07:31:06 PM Start Token: b26v89c19zqg8o3fo7je5ecymzbdmzl6jkttsf05vniwt
+02/20/2022 07:31:06 PM Start with create_url()
+02/20/2022 07:31:06 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:31:06 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:31:06 PM Start with connect_to_endpoint()
+02/20/2022 07:31:06 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:31:08 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7je5ecymzbdmzl6jkttsf05vniwt HTTP/1.1" 200 77603
+02/20/2022 07:31:08 PM if condition: next_token is in json_response
+02/20/2022 07:31:08 PM Next Token: b26v89c19zqg8o3fo7je57zdtclk33wdswflakjklb8n1
+02/20/2022 07:31:08 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:31:08 PM -------------------
+02/20/2022 07:31:08 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:31:08 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:31:08 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:31:08 PM Number of tweets: 11535
+02/20/2022 07:31:08 PM -------------------
+02/20/2022 07:31:18 PM Start with WHILE loop.
+02/20/2022 07:31:18 PM Start Token: b26v89c19zqg8o3fo7je57zdtclk33wdswflakjklb8n1
+02/20/2022 07:31:18 PM Start with create_url()
+02/20/2022 07:31:18 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:31:18 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:31:18 PM Start with connect_to_endpoint()
+02/20/2022 07:31:18 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:31:20 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7je57zdtclk33wdswflakjklb8n1 HTTP/1.1" 200 67001
+02/20/2022 07:31:20 PM if condition: next_token is in json_response
+02/20/2022 07:31:20 PM Next Token: b26v89c19zqg8o3fo7je53pc0v6593ev5wc64tr70jddp
+02/20/2022 07:31:20 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:31:20 PM -------------------
+02/20/2022 07:31:20 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:31:20 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:31:20 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:31:20 PM Number of tweets: 12026
+02/20/2022 07:31:20 PM -------------------
+02/20/2022 07:31:30 PM Start with WHILE loop.
+02/20/2022 07:31:30 PM Start Token: b26v89c19zqg8o3fo7je53pc0v6593ev5wc64tr70jddp
+02/20/2022 07:31:30 PM Start with create_url()
+02/20/2022 07:31:30 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:31:30 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:31:30 PM Start with connect_to_endpoint()
+02/20/2022 07:31:30 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:31:32 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7je53pc0v6593ev5wc64tr70jddp HTTP/1.1" 200 76764
+02/20/2022 07:31:32 PM if condition: next_token is in json_response
+02/20/2022 07:31:32 PM Next Token: b26v89c19zqg8o3fo7jdq8s7x6aks6fj4wtnithhoi5j1
+02/20/2022 07:31:32 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:31:32 PM -------------------
+02/20/2022 07:31:32 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:31:32 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:31:32 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:31:32 PM Number of tweets: 12524
+02/20/2022 07:31:32 PM -------------------
+02/20/2022 07:31:42 PM Start with WHILE loop.
+02/20/2022 07:31:42 PM Start Token: b26v89c19zqg8o3fo7jdq8s7x6aks6fj4wtnithhoi5j1
+02/20/2022 07:31:42 PM Start with create_url()
+02/20/2022 07:31:42 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:31:42 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:31:42 PM Start with connect_to_endpoint()
+02/20/2022 07:31:42 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:31:44 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7jdq8s7x6aks6fj4wtnithhoi5j1 HTTP/1.1" 200 84538
+02/20/2022 07:31:44 PM if condition: next_token is in json_response
+02/20/2022 07:31:44 PM Next Token: b26v89c19zqg8o3fo7jdaun2hrpr8s4881gefk3rctqwt
+02/20/2022 07:31:44 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:31:44 PM -------------------
+02/20/2022 07:31:44 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:31:44 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:31:45 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:31:45 PM Number of tweets: 13018
+02/20/2022 07:31:45 PM -------------------
+02/20/2022 07:31:55 PM Start with WHILE loop.
+02/20/2022 07:31:55 PM Start Token: b26v89c19zqg8o3fo7jdaun2hrpr8s4881gefk3rctqwt
+02/20/2022 07:31:55 PM Start with create_url()
+02/20/2022 07:31:55 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:31:55 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:31:55 PM Start with connect_to_endpoint()
+02/20/2022 07:31:55 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:31:56 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7jdaun2hrpr8s4881gefk3rctqwt HTTP/1.1" 200 81085
+02/20/2022 07:31:56 PM if condition: next_token is in json_response
+02/20/2022 07:31:56 PM Next Token: b26v89c19zqg8o3fo7jcvp0twv24jrudsglp3kpfzgvp9
+02/20/2022 07:31:56 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:31:56 PM -------------------
+02/20/2022 07:31:56 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:31:56 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:31:56 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:31:56 PM Number of tweets: 13510
+02/20/2022 07:31:56 PM -------------------
+02/20/2022 07:32:07 PM Start with WHILE loop.
+02/20/2022 07:32:07 PM Start Token: b26v89c19zqg8o3fo7jcvp0twv24jrudsglp3kpfzgvp9
+02/20/2022 07:32:07 PM Start with create_url()
+02/20/2022 07:32:07 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:32:07 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:32:07 PM Start with connect_to_endpoint()
+02/20/2022 07:32:07 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:32:08 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7jcvp0twv24jrudsglp3kpfzgvp9 HTTP/1.1" 200 83510
+02/20/2022 07:32:08 PM if condition: next_token is in json_response
+02/20/2022 07:32:08 PM Next Token: b26v89c19zqg8o3fo7gggzq5cc9yo8cihn4uhxposra7x
+02/20/2022 07:32:08 PM if condition: result_count is not None and result_count > 0 and next_token is not None
+02/20/2022 07:32:08 PM -------------------
+02/20/2022 07:32:08 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:32:09 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:32:09 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:32:09 PM Number of tweets: 14001
+02/20/2022 07:32:09 PM -------------------
+02/20/2022 07:32:19 PM Start with WHILE loop.
+02/20/2022 07:32:19 PM Start Token: b26v89c19zqg8o3fo7gggzq5cc9yo8cihn4uhxposra7x
+02/20/2022 07:32:19 PM Start with create_url()
+02/20/2022 07:32:19 PM Search URL: https://api.twitter.com/2/tweets/search/all
+02/20/2022 07:32:19 PM Query Params: {'query': '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:de', 'start_time': '2020-7-01T00:00:00.000Z', 'end_time': '2020-7-31T00:00:00.000Z', 'max_results': 500, 'expansions': 'author_id,in_reply_to_user_id,geo.place_id', 'tweet.fields': 'id,text,author_id,in_reply_to_user_id,geo,conversation_id,created_at,lang,public_metrics,referenced_tweets,reply_settings,source', 'user.fields': 'id,name,username,created_at,description,public_metrics,verified', 'next_token': {}}
+02/20/2022 07:32:19 PM Start with connect_to_endpoint()
+02/20/2022 07:32:19 PM Starting new HTTPS connection (1): api.twitter.com:443
+02/20/2022 07:32:20 PM https://api.twitter.com:443 "GET /2/tweets/search/all?query=%28MarkusBraun+OR+%22Markus+Braun%22+OR+JanMarsalek+OR+%22Jan+Marsalek%22%29+lang%3Ade&start_time=2020-7-01T00%3A00%3A00.000Z&end_time=2020-7-31T00%3A00%3A00.000Z&max_results=500&expansions=author_id%2Cin_reply_to_user_id%2Cgeo.place_id&tweet.fields=id%2Ctext%2Cauthor_id%2Cin_reply_to_user_id%2Cgeo%2Cconversation_id%2Ccreated_at%2Clang%2Cpublic_metrics%2Creferenced_tweets%2Creply_settings%2Csource&user.fields=id%2Cname%2Cusername%2Ccreated_at%2Cdescription%2Cpublic_metrics%2Cverified&next_token=b26v89c19zqg8o3fo7gggzq5cc9yo8cihn4uhxposra7x HTTP/1.1" 200 56260
+02/20/2022 07:32:20 PM else condition: next_token is in json_response
+02/20/2022 07:32:20 PM result_count is not None and result_count > 0
+02/20/2022 07:32:20 PM -------------------
+02/20/2022 07:32:20 PM Start with : 2020-7-01T00:00:00.000Z
+02/20/2022 07:32:20 PM append_to_csv is started wiht file data.csv
+02/20/2022 07:32:20 PM append_to_csv is started wiht file user.csv
+02/20/2022 07:32:21 PM Number of tweets: 14308
+02/20/2022 07:32:21 PM -------------------
+02/20/2022 07:32:26 PM Set flag to False and next_token to None
