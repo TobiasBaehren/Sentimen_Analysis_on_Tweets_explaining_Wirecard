@@ -8,6 +8,8 @@ authors = ["TobiasBaehren <59140525+TobiasBaehren@users.noreply.github.com>"]
 python = "^3.10"
 numpy = "^1.22.2"
 ipykernel = "^6.9.1"
+matplot = "^0.1.9"
+pandas = "^1.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
