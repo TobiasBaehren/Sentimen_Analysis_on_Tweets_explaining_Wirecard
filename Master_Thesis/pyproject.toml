@@ -11,6 +11,7 @@ ipykernel = "^6.9.1"
 matplot = "^0.1.9"
 pandas = "^1.4.1"
 nltk = "^3.7"
+vaderSentiment = "^3.3.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

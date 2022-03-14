@@ -10,7 +10,13 @@ import unicodedata
 import time
 from dotenv import load_dotenv
 import logging
+import nltk
 
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
+sid = SentimentIntensityAnalyzer()
+
+sid.lexicon
 #from tests.test import connection_test
 
 load_dotenv()
