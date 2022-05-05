@@ -10,13 +10,13 @@ import unicodedata
 import time
 from dotenv import load_dotenv
 import logging
-import nltk
+#import nltk
 
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
+#from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-sid = SentimentIntensityAnalyzer()
+#sid = SentimentIntensityAnalyzer()
 
-sid.lexicon
+#sid.lexicon
 #from tests.test import connection_test
 
 load_dotenv()
@@ -280,7 +280,7 @@ def execute_twitter_request(total_tweets):
 
         #Inputs
         count = 0 #Counting number of tweets
-        max_count = 90000 #Max tweets per time periode
+        max_count = 100000 #Max tweets per time periode
         flag = True
         next_token = None
 
@@ -357,7 +357,7 @@ def run_script(test = False):
 #Inputs for the Request
 bearer_token = auth()
 headers = create_headers(bearer_token)
-keyword = '(MarkusBraun OR "Markus Braun" OR JanMarsalek OR "Jan Marsalek") lang:en'
+keyword = 'WRCDF lang:de'
 
 #The following keyword query is not used because all further keywords are implemented in the first search for wirecard.
 #No further informtaion will be genereated. Furhtermore, I cannot look for just a keyword like "BaFin" because they handle to many different tasks, like Bitcoin in 2018.
