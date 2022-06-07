@@ -379,6 +379,14 @@ torch = ">=1.8.1"
 transformers = "*"
 
 [[package]]
+name = "hanta"
+version = "0.2.0"
+description = "Hannover Tagger: Morphological Analysis and POS Tagging"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "huggingface-hub"
 version = "0.4.0"
 description = "Client library to download and publish models on the huggingface.co hub"
@@ -1753,7 +1761,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "e1fadbe5ee1ae790de1f3a923c5b9a20c28df8d75c63992b09f560f856a65a8d"
+content-hash = "66fa1166510fa24ef3391f52a4f2c91636fb029a33a28095bb1f4568cd66534c"
 
 [metadata.files]
 appnope = [
@@ -1978,6 +1986,10 @@ gensim = [
 germansentiment = [
     {file = "germansentiment-1.0.7-py3-none-any.whl", hash = "sha256:fcbdf096cd54e7b63e168782bd37f8bdf377edf4a44463a390743ab7af252bef"},
     {file = "germansentiment-1.0.7.tar.gz", hash = "sha256:84d700472a7cdc4fedbf3edc2d1d54ade533b3ab2b6a1ebe15eadddaaf4de9b4"},
+]
+hanta = [
+    {file = "HanTa-0.2.0-py3-none-any.whl", hash = "sha256:2333398283602d751b7ed76f9c5263dd469c063aa299803918d51ff96eea518a"},
+    {file = "HanTa-0.2.0.tar.gz", hash = "sha256:21db486a66bb67843900717d5d0df0d755319931d43f04b29bb61cd099813eb1"},
 ]
 huggingface-hub = [
     {file = "huggingface_hub-0.4.0-py3-none-any.whl", hash = "sha256:808021af1ce1111104973ae54d81738eaf40be6d1e82fc6bdedb82f81c6206e7"},
