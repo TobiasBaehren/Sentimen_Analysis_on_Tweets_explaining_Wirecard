@@ -23,6 +23,7 @@ wordcloud = "^1.8.1"
 HanTa = "^0.2.0"
 torch = "^1.12.0"
 emoji = "2.0.0"
+statsmodels = "^0.13.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

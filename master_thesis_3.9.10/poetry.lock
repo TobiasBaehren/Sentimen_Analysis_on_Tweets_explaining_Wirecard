@@ -982,6 +982,21 @@ qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["docopt", "pytest (<6.0.0)"]
 
 [[package]]
+name = "patsy"
+version = "0.5.2"
+description = "A Python package for describing statistical models and for building design matrices."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+numpy = ">=1.4"
+six = "*"
+
+[package.extras]
+test = ["scipy", "pytest-cov", "pytest"]
+
+[[package]]
 name = "pexpect"
 version = "4.8.0"
 description = "Pexpect allows easy control of interactive console applications."
@@ -1470,6 +1485,26 @@ dev = ["check-manifest"]
 test = ["coverage", "pytest"]
 
 [[package]]
+name = "statsmodels"
+version = "0.13.2"
+description = "Statistical computations and models for Python"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+numpy = ">=1.17"
+packaging = ">=21.3"
+pandas = ">=0.25"
+patsy = ">=0.5.2"
+scipy = ">=1.3"
+
+[package.extras]
+build = ["cython (>=0.29.26)"]
+develop = ["cython (>=0.29.26)"]
+docs = ["sphinx", "nbconvert", "jupyter-client", "ipykernel", "matplotlib", "nbformat", "numpydoc", "pandas-datareader"]
+
+[[package]]
 name = "tabulate"
 version = "0.8.9"
 description = "Pretty-print tabular data"
@@ -1761,7 +1796,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "ecb47e4e66e4d3689aef0c1cbb56c26a8c463655bad74c53c34f249756fc0cfc"
+content-hash = "f80887a74b5c3580fee4c30d72e3a99474c8f2760ab2645835bf53e7dedc7cf1"
 
 [metadata.files]
 appnope = [
@@ -2356,6 +2391,7 @@ parso = [
     {file = "parso-0.8.3-py2.py3-none-any.whl", hash = "sha256:c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75"},
     {file = "parso-0.8.3.tar.gz", hash = "sha256:8c07be290bb59f03588915921e29e8a50002acaf2cdc5fa0e0114f91709fafa0"},
 ]
+patsy = []
 pexpect = [
     {file = "pexpect-4.8.0-py2.py3-none-any.whl", hash = "sha256:0b48a55dcb3c05f3329815901ea4fc1537514d6ba867a152b581d69ae3710937"},
     {file = "pexpect-4.8.0.tar.gz", hash = "sha256:fc65a43959d153d0114afe13997d439c22823a27cefceb5ff35c2178c6784c0c"},
@@ -2869,6 +2905,7 @@ stanza = [
     {file = "stanza-1.3.0-py3-none-any.whl", hash = "sha256:2508642043470d7c80fb646c46fee8cc85ba9170e099b93a4226e0b3037faf2b"},
     {file = "stanza-1.3.0.tar.gz", hash = "sha256:70d0c16aecebce878b37b50d2495c81c230dfca36f8f3f20831b957005fa10f3"},
 ]
+statsmodels = []
 tabulate = [
     {file = "tabulate-0.8.9-py3-none-any.whl", hash = "sha256:d7c013fe7abbc5e491394e10fa845f8f32fe54f8dc60c6622c6cf482d25d47e4"},
     {file = "tabulate-0.8.9.tar.gz", hash = "sha256:eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"},
